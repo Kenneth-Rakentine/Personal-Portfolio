@@ -140,7 +140,7 @@ http://www.jonny.me/
 
 ## `WireFrame`
 
-
+**create wireframe either with sketches/block-diagram, pseudocode and paste screenshot here**
 
 ### Component Hierarchy Diagram
 [FIigma](https://www.figma.com/)

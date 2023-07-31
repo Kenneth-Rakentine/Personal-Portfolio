@@ -108,160 +108,12 @@ http://sebkay.com/
 
 http://www.jonny.me/
 
-http://www.kathrynmcclintock.com/
+(http://www.kathrynmcclintock.com/)
 
-http://jacekjeznach.com/
+(http://jacekjeznach.com/)
 
 
-**GRADING CRITERIA:**
-
-Software Engineering W.I.S.E Rubric - Standard
-Criteria	Ratings	Pts
-This criterion is linked to a Learning OutcomeUse of Class Time
-5 to >4.0 pts
-Full Marks
-Used time well. Focused on getting the project done without distracting others.
-4 to >3.0 pts
-4
-Used time well. Mostly focused on getting the project done without distracting others
-3 to >2.0 pts
-3
-Used some time well. Some focus on getting project done but occasionally distracted others.
-2 pts
-2
-Did not use class time to focus on the project OR often distracted others.
-2 to >0 pts
-needs improvement
-5 pts
-This criterion is linked to a Learning OutcomeFull Stack JavaScript Comprehension
-3 to >2.4 pts
-Full Marks
-Understands topic and messages of the instruction clearly
-2.4 to >1.8 pts
-4
-Topic and main ideas are clear.
-1.8 to >1.2 pts
-3
-Topic are somewhat clear but main ideas are unclear or lacking.
-1.2 to >0.2 pts
-2
-Topic and/or main ideas are absent or very unclear.
-0.2 to >0 pts
-needs improvement
-3 pts
-This criterion is linked to a Learning OutcomeHTML/JSX Comprehension
-4 to >3.2 pts
-Full Marks
-Understands topic and messages of the instruction clearly
-3.2 to >2.4 pts
-4
-Topic and main ideas are clear.
-2.4 to >1.6 pts
-3
-Topic are somewhat clear but main ideas are unclear or lacking.
-1.6 pts
-2
-Topic and/or main ideas are absent or very unclear.
-1.6 to >0 pts
-needs improvement
-4 pts
-This criterion is linked to a Learning OutcomeCSS/SCSS/Bootstrap Comprehension
-4 to >3.2 pts
-Full Marks
-Understands topic and messages of the instruction clearly
-3.2 to >2.4 pts
-4
-Topic and main ideas are clear.
-2.4 to >1.6 pts
-3
-Topic are somewhat clear but main ideas are unclear or lacking.
-1.6 pts
-2
-Topic and/or main ideas are absent or very unclear.
-1.6 to >0 pts
-needs improvement
-4 pts
-This criterion is linked to a Learning OutcomeDOM Manipulation / State Management
-4 to >3.2 pts
-Full Marks
-Understands topic and messages of the instruction clearly
-3.2 to >2.4 pts
-4
-Topic and main ideas are clear.
-2.4 to >1.6 pts
-3
-Topic are somewhat clear but main ideas are unclear or lacking.
-1.6 pts
-2
-Topic and/or main ideas are absent or very unclear.
-1.6 to >0 pts
-needs improvement
-4 pts
-This criterion is linked to a Learning OutcomeAdvanced Concepts ( Scope, Events, Recursion, Object Oriented Programming, Inheritance, CRUD, REST, MVC)
-4 to >3.2 pts
-Full Marks
-Understands topic and messages of the instruction clearly
-3.2 to >2.4 pts
-4
-Topic and main ideas are clear.
-2.4 to >1.6 pts
-3
-Topic are somewhat clear but main ideas are unclear or lacking.
-1.6 pts
-2
-Topic and/or main ideas are absent or very unclear.
-1.6 to >0 pts
-needs improvement
-4 pts
-This criterion is linked to a Learning OutcomeDesign/Layout
-4 to >3.2 pts
-Full Marks
-Understands topic and messages of the instruction clearly
-3.2 to >2.4 pts
-4
-Topic and main ideas are clear.
-2.4 to >1.6 pts
-3
-Topic are somewhat clear but main ideas are unclear or lacking.
-1.6 pts
-2
-Unable to write code effectively
-1.6 to >0 pts
-needs improvement
-4 pts
-This criterion is linked to a Learning OutcomeCode Accuracy
-4 to >3.2 pts
-Full Marks
-There are no mistakes.
-3.2 to >2.4 pts
-4
-There are few mistakes.
-2.4 to >1.6 pts
-3
-There are some mistakes from time to time
-1.6 pts
-2
-Topic and/or main ideas are absent or very unclear.
-1.6 to >0 pts
-needs improvement
-4 pts
-This criterion is linked to a Learning OutcomeMotivation
-3 to >2.4 pts
-Full Marks
-Very Motivated
-2.4 to >1.8 pts
-4
-Well Motivated
-1.8 to >1.2 pts
-3
-Ok Motivated
-1.2 to >0.2 pts
-2
-Not Motivated
-0.2 to >0 pts
-needs improvement
-3 pts
-Total Points: 35
+```
 
 
 
@@ -270,7 +122,7 @@ Total Points: 35
 
 ![alt text](https://i.ibb.co/rHk86Xh/Black-Bird-Color-Palette.png)
 
-https://www.canva.com/colors/color-palettes/black-bird/
+(https://www.canva.com/colors/color-palettes/black-bird/)
 
 
 ## `WireFrame`

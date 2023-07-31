@@ -117,12 +117,25 @@ http://www.jonny.me/
 
 
 
-```
+
 ## `Color Palette`
 
 ![alt text](https://i.ibb.co/rHk86Xh/Black-Bird-Color-Palette.png)
 
 (https://www.canva.com/colors/color-palettes/black-bird/)
+
+
+**Alternate Palette Options:**
+[Canva](https://www.canva.com/colors/color-palettes/bonfire-glow/)
+(https://www.canva.com/colors/color-palettes/peaceful-cottage-path/)
+(https://www.canva.com/colors/color-palettes/grained-memories/)
+(https://www.canva.com/colors/color-palettes/san-francisco-fog/)
+(https://www.canva.com/colors/color-palettes/sliver-of-silver/)
+(https://www.canva.com/colors/color-palettes/quill-and-carton/)
+(https://www.canva.com/colors/color-palettes/crimson-and-blues/)
+(https://www.canva.com/colors/color-palettes/chocolate-pastries/)
+(https://www.canva.com/colors/color-palettes/memory-box/)
+
 
 
 ## `WireFrame`

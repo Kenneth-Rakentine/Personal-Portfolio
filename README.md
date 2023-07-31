@@ -126,23 +126,24 @@ http://www.jonny.me/
 
 
 **Alternate Palette Options:**
-[Canva](https://www.canva.com/colors/color-palettes/bonfire-glow/)
-(https://www.canva.com/colors/color-palettes/peaceful-cottage-path/)
-(https://www.canva.com/colors/color-palettes/grained-memories/)
-(https://www.canva.com/colors/color-palettes/san-francisco-fog/)
-(https://www.canva.com/colors/color-palettes/sliver-of-silver/)
-(https://www.canva.com/colors/color-palettes/quill-and-carton/)
-(https://www.canva.com/colors/color-palettes/crimson-and-blues/)
-(https://www.canva.com/colors/color-palettes/chocolate-pastries/)
-(https://www.canva.com/colors/color-palettes/memory-box/)
+[bonfire-glow](https://www.canva.com/colors/color-palettes/bonfire-glow/)
+[cottage-path](https://www.canva.com/colors/color-palettes/peaceful-cottage-path/)
+[grained-memories](https://www.canva.com/colors/color-palettes/grained-memories/)
+[san-francisco-fog](https://www.canva.com/colors/color-palettes/san-francisco-fog/)
+[sliver-of-silver](https://www.canva.com/colors/color-palettes/sliver-of-silver/)
+[quill-and-carton](https://www.canva.com/colors/color-palettes/quill-and-carton/)
+[crimson-and-blues](https://www.canva.com/colors/color-palettes/crimson-and-blues/)
+[chocolate-pastries](https://www.canva.com/colors/color-palettes/chocolate-pastries/)
+[memory-box](https://www.canva.com/colors/color-palettes/memory-box/)
 
 
 
 ## `WireFrame`
 
 
-### Component Hierarchy Diagram
 
+### Component Hierarchy Diagram
+[FIigma](https://www.figma.com/)
 
 ## Goals
 
@@ -157,10 +158,14 @@ http://www.jonny.me/
 
 ### Tech Utilized
 
+**Image Filehosting:** [IMGBB](https://imgbb.com/)
+**Component Diagram:** [FIigma](https://www.figma.com/)
+**Logo Image Generation:**[BlueWillow](https://www.bluewillow.ai/) \\discord : [ imagine/: in one of the "Rookie" channels ]* & Photoshop to create a logo/cool looking clickable "button"-style icon to take you back "Home"\\
 
 
 #### Credits
 
+Include **Github** project repository page which links/lists all of my current github projects using an **API**, such as: (https://docs.github.com/en/rest/repos/autolinks?apiVersion=2022-11-28)
 
 
 

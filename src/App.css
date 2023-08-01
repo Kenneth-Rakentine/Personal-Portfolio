@@ -1,9 +1,125 @@
 body {
   /* background-color: #140005; */
   background: #140005 url(https://grainy-gradients.vercel.app/noise.svg);
-
+  font-family: 'Rubik', sans-serif;
+  /* font-family: 'Orbitron', sans-serif; */
+  /* font-family: 'Bebas Neue', sans-serif; */
+  /* font-family: 'Poppins', sans-serif; */
 }
 
 .App {
   text-align: center;
+}
+
+.mastercontainer {
+  display: flex;
+}
+
+.navcontainer {
+  /* background-color: blanchedalmond; */
+  width: 90px;
+}
+
+.navMenu {
+  background-color: #C44B4F;
+  ;
+  border-radius: 30px;
+  width: 77px;
+  height: 230px;
+  padding-top: 18px;
+  margin-top: 11%;
+  margin-left: 2%;
+  line-height: 22px;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+
+.navMenu:hover {
+  background-color: rgba(192, 192, 192, 0.514);
+  border-radius: 30px;
+  width: 77px;
+  height: 230px;
+  padding-top: 18px;
+  margin-top: 11%;
+  margin-left: 2%;
+  line-height: 20px;
+  color: #BBC4C2;
+  font-weight: 600;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+
+.indItem {}
+
+.indItem:hover {
+  color: #C44B4F;
+  font-size: 17px;
+}
+
+.nameContainer {
+  display: flex;
+}
+
+.nameTxt {
+  display: flex;
+  justify-content: center;
+  font-family: 'Bebas Neue', sans-serif;
+  color: #C44B4F;
+  text-shadow: 4px 9px 8px #3f4f53;
+  font-size: 77px;
+  letter-spacing:5px;
+  /* align-self: start; */
+  align-items: start;
+  margin-top: -400px;
+}
+
+#cubeLogo{
+  height:330px;
+  margin-top: 79px;
+  animation: logoSpin 3.4s ease-in-out infinite;
+}
+
+#boxLogo{
+  margin-top:13px;
+  height:60px;
+  align-self:start;
+  justify-content:start;
+  margin-left:-1460px;
+  border-radius:10px;
+  box-shadow: 3px 2px 2px 4px #1f2729;
+  opacity:.8;
+}
+
+#boxLogo:hover{
+  margin-top:13px;
+  height:63px;
+  align-self:start;
+  justify-content:start;
+  margin-left:-1460px;
+  border-radius:10px;
+  box-shadow: 1px 2px 2px 5.4px #be3333;
+  opacity: .54;
+}
+
+@keyframes logoSpin{
+0%{
+
+}
+40%{
+  transform: translate3d(360deg);
+}
+65%{
+  transform: translate3d(-250deg);
+}
+100%{
+  scale:1.2;
+  /* transform: rotate3d(0, 1, 0.5, 3.142rad); */
+  /* transform: rotate3d(3, 8, 13, 180deg); */
+}
+}
+
+.projects{
+  margin-left:-5%;
 }

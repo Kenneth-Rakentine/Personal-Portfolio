@@ -161,6 +161,7 @@ http://www.jonny.me/
 **Image Filehosting:** [IMGBB](https://imgbb.com/)
 **Component Diagram:** [FIigma](https://www.figma.com/)
 **Logo Image Generation:**[BlueWillow](https://www.bluewillow.ai/) \\discord : [ imagine/: in one of the "Rookie" channels ]* & Photoshop to create a logo/cool looking clickable "button"-style icon to take you back "Home"\\
+**Image Generation** [Adobe Firefly](https://firefly.adobe.com/inspire/images)
 
 
 #### Credits

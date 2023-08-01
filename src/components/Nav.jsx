@@ -6,10 +6,14 @@ function Nav() {
         <div className='navContainer'>
             <div className='navMenu'>
                 <div className='menuItems'>
-                    <p>Projects</p>
-                    <p>Links</p>
-                    <p>About</p>
-                    <p>Contact</p>
+                    <Link to="/project">
+                    <p className='indItem'>Projects</p>
+                    </Link>
+                    <p className='indItem'>Links</p>
+                    <p className='indItem'>About</p>
+                    <p className='indItem'>Resume</p>
+                    <p className='indItem'>Contact</p>
+                    
 
                 </div>
             </div>

@@ -1,11 +1,13 @@
-
 # Personal Portfolio
 
+![LOGO](https://i.ibb.co/k0zGvp9/CROPPED-KR-CUBE-color-edit-GOOD.pn)
+
 ## Canvas Assignment Link:
+
 https://perscholas.instructure.com/courses/1464/assignments/291114?module_item_id=930282
 
-
 ### `Mandatory To Pass:`
+
 ```
 **Minimum Viable Product**
 Your application must meet these requirements:
@@ -35,7 +37,7 @@ Look into localstorage so you can save data to the user's browser
 
 ## CHECKPOINTS!
 ### Checkpoint 1: Wireframes
-Following your lesson on SDLC & Agile Methodolgy, you should have a good idea what a wireframe is and what it entails. Make a wireframe for your portfolio site. Take some time to think about special features you might want (e.g., a carousel or modal dialog for displaying projects), and how a user will navigate your site. Will you have smooth scrolling? 
+Following your lesson on SDLC & Agile Methodolgy, you should have a good idea what a wireframe is and what it entails. Make a wireframe for your portfolio site. Take some time to think about special features you might want (e.g., a carousel or modal dialog for displaying projects), and how a user will navigate your site. Will you have smooth scrolling?
 
 **Protip:** This is a great time to brainstorm about color pallettes. There are many tools you can use online to generate color pallettes, such as Canva, ColorMind, or ColorSpace. They each work differently so check them all out and bookmark your favorite!
 
@@ -115,15 +117,11 @@ http://www.jonny.me/
 
 ```
 
-
-
-
 ## `Color Palette`
 
 ![alt text](https://i.ibb.co/rHk86Xh/Black-Bird-Color-Palette.png)
 
 (https://www.canva.com/colors/color-palettes/black-bird/)
-
 
 **Alternate Palette Options:**
 [bonfire-glow](https://www.canva.com/colors/color-palettes/bonfire-glow/)
@@ -136,37 +134,27 @@ http://www.jonny.me/
 [chocolate-pastries](https://www.canva.com/colors/color-palettes/chocolate-pastries/)
 [memory-box](https://www.canva.com/colors/color-palettes/memory-box/)
 
-
-
 ## `WireFrame`
 
 **create wireframe either with sketches/block-diagram, pseudocode and paste screenshot here**
 
 ### Component Hierarchy Diagram
+
 [FIigma](https://www.figma.com/)
 
 ## Goals
 
-
-
 ### Future Roadmap/ To-Do
 
-
 ### Screenshots
-
-
 
 ### Tech Utilized
 
 **Image Filehosting:** [IMGBB](https://imgbb.com/)
 **Component Diagram:** [FIigma](https://www.figma.com/)
-**Logo Image Generation:**[BlueWillow](https://www.bluewillow.ai/) \\discord : [ imagine/: in one of the "Rookie" channels ]* & Photoshop to create a logo/cool looking clickable "button"-style icon to take you back "Home"\\
+**Logo Image Generation:**[BlueWillow](https://www.bluewillow.ai/) \\discord : [ imagine/: in one of the "Rookie" channels ]\* & Photoshop to create a logo/cool looking clickable "button"-style icon to take you back "Home"\\
 **Image Generation** [Adobe Firefly](https://firefly.adobe.com/inspire/images)
-
 
 #### Credits
 
-Include **Github** project repository page which links/lists all of my current github projects using an **API**, such as: (https://docs.github.com/en/rest/repos/autolinks?apiVersion=2022-11-28)
-
-
-
+**Github API** [REST Repo API](https://api.github.com/users/Kenneth-Rakentine/repos)

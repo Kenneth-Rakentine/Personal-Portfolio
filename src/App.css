@@ -76,11 +76,33 @@ body {
 }
 
 #cubeLogo{
-  height:330px;
+  height:310px;
   margin-top: 79px;
   animation: logoSpin 3.4s ease-in-out infinite;
 }
 
+
+@keyframes logoSpin{
+0%{
+
+}
+40%{
+  transform: translate3d(360deg);
+}
+65%{
+  transform: translate3d(-250deg);
+}
+100%{
+  scale:1.25;
+
+  /* transform: rotate3d(0, 1, 0.5, 3.142rad); */
+  /* transform: rotate3d(3, 8, 13, 180deg); */
+}
+}
+
+.projects{
+  margin-left:-5%;
+}
 #boxLogo{
   margin-top:13px;
   height:60px;
@@ -101,25 +123,4 @@ body {
   border-radius:10px;
   box-shadow: 1px 2px 2px 5.4px #be3333;
   opacity: .54;
-}
-
-@keyframes logoSpin{
-0%{
-
-}
-40%{
-  transform: translate3d(360deg);
-}
-65%{
-  transform: translate3d(-250deg);
-}
-100%{
-  scale:1.2;
-  /* transform: rotate3d(0, 1, 0.5, 3.142rad); */
-  /* transform: rotate3d(3, 8, 13, 180deg); */
-}
-}
-
-.projects{
-  margin-left:-5%;
 }

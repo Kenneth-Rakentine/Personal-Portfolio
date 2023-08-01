@@ -1,6 +1,6 @@
 # Personal Portfolio
 
-![LOGO](https://i.ibb.co/k0zGvp9/CROPPED-KR-CUBE-color-edit-GOOD.pn)
+![LOGO](https://i.ibb.co/k0zGvp9/CROPPED-KR-CUBE-color-edit-GOOD.png)
 
 ## Canvas Assignment Link:
 
@@ -143,6 +143,36 @@ http://www.jonny.me/
 [FIigma](https://www.figma.com/)
 
 ## Goals
+
+make thumbnails and lerger cool font-TEXT spelling out the name of each project I showcase on the projects page
+
+change color of nav links, and maybe change nav shape or just add white + light red spinning/rotating mutliples sliding and falling behind it. cascading.
+
+use carousel for github projects(?)
+
+use marquee text in places
+
+USE PARALLAX Scrolling (yarn - npm install): https://www.npmjs.com/package/react-scroll-parallax \*\*
+
+Remember to make x files splash page
+
+Make that image a gif and use it as a lower section of the main page, in its own dive with 100% width, when you scroll down, it’s the background (per SCHOLAS site style where divs are like sections of the page with diff backgrounds)
+
+Page 2 (one of the additional pages) willl be a lighter color.
+
+Make multiples of my nav component in css and make them rotate or fade into one from top and bottom sort of similar to my other project with the blue spinning rectangles
+
+Consider more closely matching the red on my cube logo to the red of my name font on the site
+
+Add noise to logo without looking unintentionally low quality
+
+Remember to reference fifa website for design ideas and overall look/feel
+
+Still need to find a good one to get inspiration from
+
+cubed KR Logo Edit: img src="https://i.ibb.co/5npDLLR/CROPPED-KR-CUBE-color-edit.png" alt="CROPPED-KR-CUBE-color-edit"
+
+have a little nav "cell"/capsule floating in the middle(upper center) of the lefthand column/side of the page which has Router links to each page
 
 ### Future Roadmap/ To-Do
 

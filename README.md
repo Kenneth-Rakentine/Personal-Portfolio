@@ -144,6 +144,8 @@ http://www.jonny.me/
 
 ## Goals
 
+Use FOCUS METHOD: document.querySelector(‘whatever’).focus()
+
 make thumbnails and lerger cool font-TEXT spelling out the name of each project I showcase on the projects page
 
 change color of nav links, and maybe change nav shape or just add white + light red spinning/rotating mutliples sliding and falling behind it. cascading.

@@ -73,30 +73,135 @@ body {
   /* align-self: start; */
   align-items: start;
   margin-top: -400px;
+  animation: txtBkg linear 4s infinite;
 }
 
+
+@keyframes txtBkg{
+  0%{
+  }
+  89%{
+    display: flex;
+    justify-content: center;
+    font-family: 'Bebas Neue', sans-serif;
+    color: #C44B4F;
+    text-shadow: 4px 9px 8px #000000;
+    font-size: 77px;
+    letter-spacing:5px;
+    /* align-self: start; */
+    align-items: start;
+    margin-top: -400px;
+    animation: txtBkg ease-in-out 4s infinite;
+  }
+  96%{
+   opacity:.4;
+  } 
+  100%{
+    text-shadow: none;
+    background-image: url(https://thumbs.gfycat.com/WellwornUnhappyGalapagosalbatross-max-1mb.gif);
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
+    background-size:contain;
+    color: transparent;
+    text-transform: uppercase;
+    opacity:.2;
+    filter: contrast(.5);
+    filter: brightness(.4);
+    filter: grayscale(70%);
+    /* letter-spacing: 55px; */
+    word-wrap:break-word;
+    /* filter: hue-rotate(-0.21turn); */
+  }
+}
+
+.nameTxt:hover {
+  display: flex;
+  justify-content: center;
+  font-family: 'Bebas Neue', sans-serif;
+  color: #C44B4F;
+  text-shadow: 4px 9px 8px #a33f3f;
+  font-size: 77px;
+  letter-spacing:5px;
+  /* align-self: start; */
+  align-items: start;
+  margin-top: -400px;
+  background-image: url(https://f8n-production-collection-assets.imgix.net/0xF0C637798820EC54A3021386f5F9eE6927018009/1/nft.gif?q=80&auto=compress&cs=srgb&w=3000&h=3000&fit=max);
+  -moz-background-clip: text;
+  -webkit-background-clip: text;
+  background-size: cover;
+  color: transparent;
+  text-transform: uppercase;
+  opacity:.7;
+  filter: contrast(.8);
+  filter: brightness(1.8);
+  filter: hue-rotate(0.01turn);
+}
+
+
+
 #cubeLogo{
-  height:310px;
+  height:240px;
   margin-top: 79px;
-  animation: logoSpin 3.4s ease-in-out infinite;
+  filter: drop-shadow(3px 8px 6px #140808);
+  animation: logoSpin 3.8s linear infinite;
 }
 
 
 @keyframes logoSpin{
 0%{
+animation-timing-function: ease-in;
+/* scale:.8; */
+filter: brightness(.7);
 
+filter: drop-shadow(1px 40px 10px #140808);
+}
+27%{
+  opacity:.7;
+  filter: contrast(.8);
+  filter: brightness(.7);
+  filter: hue-rotate(0.01turn);
+  transition: .8s;
+  /* scale:.7; */
+    filter: grayscale(30%);
+
+  filter: drop-shadow(1px 20px 6px #140808);
 }
 40%{
-  transform: translate3d(360deg);
+  filter: grayscale(30%);
+  scale:1.3;
+  transform: translate3d(30px);
+  filter: drop-shadow(1px 40px 10px #140808);
 }
 65%{
+ 
+  filter: contrast(.4);
+  filter: brightness(.8);
   transform: translate3d(-250deg);
+  filter: drop-shadow(1px 40px 10px #140808);
+
+  
+}
+76%{
+  filter: brightness(.6);
+  filter: drop-shadow(1px 40px 10px #140808);
+  /* filter: brightness(.7); */
+
+}
+99%{
+  filter: contrast(.4);
+  filter: brightness(.7);
+  transform: translate3d(-250deg);
+  filter: drop-shadow(1px 40px 10px #140808);
+  scale:1;
 }
 100%{
-  scale:1.25;
+  scale:1;
+  filter: grayscale(50%);
+  filter: brightness(.7);
+opacity:.9;
+  animation-timing-function: ease-out;
+  filter: drop-shadow(1px 10px 4px #140808);
 
-  /* transform: rotate3d(0, 1, 0.5, 3.142rad); */
-  /* transform: rotate3d(3, 8, 13, 180deg); */
 }
 }
 

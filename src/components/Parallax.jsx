@@ -3,7 +3,9 @@ import React from 'react'
 
 function Parallax() {
   return (
-    <div>Parallax</div>
+    <div>
+        <img src='https://i.ibb.co/55gLGzf/37Wseut.jpg'></img>
+    </div>
   )
 }
 

@@ -220,6 +220,46 @@ opacity:.9;
 }
 }
 
+#cubeLogo:hover{
+  height:270px;
+  margin-top: 79px;
+  filter: drop-shadow(3px 8px 6px #140808);
+  animation: logoHover 1.3s linear infinite;
+}
+
+@keyframes logoHover{
+  0%{
+    scale:1.3;
+    opacity: .6;
+    transform: rotate3d(1, -1, 1, -10deg);
+    animation-timing-function: .8s;
+
+  } 30%{
+    scale:1.3;
+    opacity: .6;
+    transform: rotate3d(3, -15, -11, -20deg);
+    animation-timing-function: .5s;
+
+  }
+  
+  100%{
+  }
+}
+
+.animatedCube{
+scale:.1;
+animation: clicked .4s linear forwards;
+}
+
+@keyframes clicked{
+  0% { transform: translateX(0) ;}
+  25% { transform: translateX(5px) }
+  50% { transform: translateX(-5px) }
+  75% { transform: translateX(5px) }
+  100% {scale:.1; transform: translateX(0); }
+}
+
+
 .projects{
   margin-left:-5%;
 }
@@ -291,4 +331,10 @@ margin-bottom:8px;
   box-shadow: 0px 15px 20px rgb(58, 51, 51);
   color: #fff;
   transform: translateY(-1px);
+}
+
+.collageImg{
+  margin-top: 20%;
+  width:100%;
+  opacity:.4;
 }

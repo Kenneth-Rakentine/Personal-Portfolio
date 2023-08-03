@@ -21,13 +21,14 @@ function App() {
         <Name />
         {/* <Logo/> */}
         <Parallax/>
+       
         <Routes>
           <Route path="/" element={<Logo />} />
           <Route path="/project" element={<Projects/>}/>
           <Route path="/resume" element={<Resume/>}/>
         </Routes>
       </div>
-
+      <img className='collageImg' src='https://i.ibb.co/55gLGzf/37Wseut.jpg'/>
     </div>
   );
 }

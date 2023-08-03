@@ -3,7 +3,7 @@ import React from 'react'
 function Name() {
 
     const reload = ()=>{
-        window.location.reload()
+        window.location.href= '/'
     }
     return (
         <div className='namecontainer'>

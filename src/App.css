@@ -52,7 +52,9 @@ body {
   transition:1.4s;
 }
 
-.indItem {}
+.indItem {
+  color: #ffffff;
+}
 
 .indItem:hover {
   color: #C44B4F;
@@ -75,12 +77,16 @@ body {
   /* align-self: start; */
   align-items: start;
   margin-top: -400px;
-  animation: txtBkg linear 4s infinite;
+  animation: txtBkg linear 6s infinite;
 }
 
 
 @keyframes txtBkg{
   0%{
+  }
+  70%{
+    filter: grayscale(70%);
+
   }
   89%{
     display: flex;
@@ -100,7 +106,7 @@ body {
   } 
   100%{
     text-shadow: none;
-    background-image: url(https://thumbs.gfycat.com/WellwornUnhappyGalapagosalbatross-max-1mb.gif);
+    background-image: url(https://i.pinimg.com/originals/b7/9a/f5/b79af5850ce890e052487cc88ab91251.gif);
     -moz-background-clip: text;
     -webkit-background-clip: text;
     background-size:contain;
@@ -109,7 +115,7 @@ body {
     opacity:.2;
     filter: contrast(.5);
     filter: brightness(.4);
-    filter: grayscale(70%);
+    /* filter: grayscale(70%); */
     /* letter-spacing: 55px; */
     word-wrap:break-word;
     /* filter: hue-rotate(-0.21turn); */
@@ -127,16 +133,18 @@ body {
   /* align-self: start; */
   align-items: start;
   margin-top: -400px;
-  background-image: url(https://f8n-production-collection-assets.imgix.net/0xF0C637798820EC54A3021386f5F9eE6927018009/1/nft.gif?q=80&auto=compress&cs=srgb&w=3000&h=3000&fit=max);
+  background-image: url(https://i.pinimg.com/originals/95/07/a3/9507a36b18a9f708bbfab0db2f83a6c6.gif);
   -moz-background-clip: text;
   -webkit-background-clip: text;
   background-size: cover;
-  color: transparent;
+  /* color: transparent; */
   text-transform: uppercase;
   opacity:.7;
   filter: contrast(.8);
   filter: brightness(1.8);
   filter: hue-rotate(0.01turn);
+  cursor: pointer;
+  animation-play-state: paused;
 }
 
 

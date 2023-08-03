@@ -8,6 +8,7 @@ import Logo from './pages/Logo';
 import BoxLogo from './components/BoxLogo';
 import Projects from './pages/Projects';
 import Resume from './pages/Resume';
+import { Parallax } from 'react-scroll-parallax';
 
 function App() {
 
@@ -19,7 +20,7 @@ function App() {
         <Nav />
         <Name />
         {/* <Logo/> */}
-        
+        <Parallax/>
         <Routes>
           <Route path="/" element={<Logo />} />
           <Route path="/project" element={<Projects/>}/>

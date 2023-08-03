@@ -13,13 +13,44 @@ function Projects() {
     const getProjects = async ()=>{
         try{
             const result = await axios.get('https://api.github.com/users/Kenneth-Rakentine/repos')
-        
 
-        const sixProjects = result.data.slice(0, 10)
-        setProjects(sixProjects)
+            const specificRepos = ['Ghost-Hunter-Game', 'Employee-Directory-REACT','Netflix-Functions-Mockup', 'Omdb-Api', 'PerScholas-Responsive-Site', 'PerScholasReactGP']
+
+            const filteredProjects = result.data.filter((project) =>
+        specificRepos.includes(project.name)
+      )
+
+            filteredProjects.forEach((project) => {
+              switch (project.name) {
+                case 'Ghost-Hunter-Game':
+                  project.image_url = 'https://i.ibb.co/51fx5WP/gh-1.jpg'
+                  break
+                case 'Employee-Directory-REACT':
+                  project.image_url = 'https://i.ibb.co/kmPXqPs/gh2.png'
+                  break
+                case 'Netflix-Functions-Mockup':
+                  project.image_url = 'https://i.ibb.co/SPRCp8R/gh3.png'
+                  break
+                case 'Omdb-Api':
+                    project.image_url = 'https://i.ibb.co/Xz80Kr0/gh4.png'
+                  break
+                case 'PerScholas-Responsive-Site':
+                      project.image_url = 'https://i.ibb.co/qxYC1NM/gh5.png'
+                  break
+                case 'PerScholasReactGP':
+                        project.image_url = 'https://i.ibb.co/hZZY5ky/gh6.png'
+                  break
+                default:
+                  project.image_url = 'https://avatars.githubusercontent.com/u/41464290?v=4'
+              }
+            })
+
+        // const sixProjects = result.data.slice(0, 6)
+        // setProjects(sixProjects)
+        setProjects(filteredProjects)
     } catch (error) {
-        console.error('Error Fetching Projects:', error);
-    };
+        console.error('Error Fetching Projects:', error)
+    }
     }
 
   return (
@@ -27,13 +58,18 @@ function Projects() {
 
     <div>
         <h1>Projects</h1>
-        <ul className='projects'>
+        <div className='projects'>
+        <div id="carousel">
         {projects.map((project) => (
-          <ul key={project.id}>
-            <a href={project.html_url}>{project.name}</a>
+          <figure><ul key={project.id}>
+            <a href={project.html_url}>
+             <img className='projectImg' src={project.image_url} alt={project.name} /> 
+            </a>
           </ul>
+          </figure> 
         ))}
-        </ul>
+        </div>
+        </div>
         
     </div>
   )

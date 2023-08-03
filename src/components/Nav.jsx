@@ -11,7 +11,9 @@ function Nav() {
                     </Link>
                     <p className='indItem'>Links</p>
                     <p className='indItem'>About</p>
+                    <Link to="/resume">
                     <p className='indItem'>Resume</p>
+                    </Link>
                     <p className='indItem'>Contact</p>
                     
 

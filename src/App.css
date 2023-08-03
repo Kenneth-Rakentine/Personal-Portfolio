@@ -49,6 +49,7 @@ body {
   font-weight: 600;
   font-size: 15px;
   letter-spacing: 1px;
+  transition:1.4s;
 }
 
 .indItem {}
@@ -57,6 +58,7 @@ body {
   color: #C44B4F;
   font-size: 17px;
 }
+
 
 .nameContainer {
   display: flex;
@@ -119,7 +121,7 @@ body {
   justify-content: center;
   font-family: 'Bebas Neue', sans-serif;
   color: #C44B4F;
-  text-shadow: 4px 9px 8px #a33f3f;
+  /* text-shadow: 4px 9px 8px #a33f3f; */
   font-size: 77px;
   letter-spacing:5px;
   /* align-self: start; */
@@ -140,7 +142,7 @@ body {
 
 
 #cubeLogo{
-  height:240px;
+  height:270px;
   margin-top: 79px;
   filter: drop-shadow(3px 8px 6px #140808);
   animation: logoSpin 3.8s linear infinite;
@@ -153,7 +155,7 @@ animation-timing-function: ease-in;
 /* scale:.8; */
 filter: brightness(.7);
 
-filter: drop-shadow(1px 40px 10px #140808);
+filter: drop-shadow(1px 10px 10px #140808);
 }
 27%{
   opacity:.7;
@@ -166,32 +168,37 @@ filter: drop-shadow(1px 40px 10px #140808);
 
   filter: drop-shadow(1px 20px 6px #140808);
 }
+39%{
+  opacity:.9;
+}
 40%{
   filter: grayscale(30%);
   scale:1.3;
   transform: translate3d(30px);
   filter: drop-shadow(1px 40px 10px #140808);
+  content: url("https://i.ibb.co/qrRw0Fd/Cube-TWO-cut1.png");
+
 }
+
 65%{
- 
+  
   filter: contrast(.4);
   filter: brightness(.8);
   transform: translate3d(-250deg);
-  filter: drop-shadow(1px 40px 10px #140808);
+  filter: drop-shadow(1px 20px 10px #140808);
 
   
 }
 76%{
   filter: brightness(.6);
-  filter: drop-shadow(1px 40px 10px #140808);
+  filter: drop-shadow(1px 20px 10px #140808);
   /* filter: brightness(.7); */
-
 }
 99%{
   filter: contrast(.4);
   filter: brightness(.7);
   transform: translate3d(-250deg);
-  filter: drop-shadow(1px 40px 10px #140808);
+  filter: drop-shadow(1px 15px 10px #140808);
   scale:1;
 }
 100%{
@@ -228,4 +235,52 @@ opacity:.9;
   border-radius:10px;
   box-shadow: 1px 2px 2px 5.4px #be3333;
   opacity: .54;
+}
+
+.projects{
+  /* background-color: white; */
+  
+}
+
+.projectImg{
+  width:30%;
+}
+
+.projectImg:hover{
+  width:25%;
+  box-shadow: 0px 5px 8px rgb(163, 46, 46);
+}
+
+.resumeSection{
+  display:block;
+}
+
+.resumeHeadTxt{
+  font-family: 'Poppins', sans-serif;
+  color:#1f2729;
+  letter-spacing: 2px;
+}
+
+.hyperlinkResume{
+color:white;
+margin-bottom:8px;
+}
+
+.resumeBtn{
+  margin-top:8px;
+  border-radius:11px;
+  height:38px;
+  background-color: #8f2727;
+  color:rgb(201, 185, 185);
+  font-weight:800;
+  letter-spacing: .8px;
+  font-family:  'Orbitron', sans-serif;
+  box-shadow: inset 0px 2px 4px rgb(58, 51, 51);
+}
+
+.resumeBtn:hover{
+  background-color: #873F49;
+  box-shadow: 0px 15px 20px rgb(58, 51, 51);
+  color: #fff;
+  transform: translateY(-1px);
 }

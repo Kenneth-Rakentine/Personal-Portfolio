@@ -407,6 +407,7 @@ transform: rotatez(-10deg) 6s;
 
 #cubeLogo{
   height:270px;
+  /* width:15%; */
   margin-top: 79px;
   filter: drop-shadow(3px 8px 6px #140808);
   animation: logoSpin 3.8s linear infinite;

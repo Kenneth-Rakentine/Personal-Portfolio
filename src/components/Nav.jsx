@@ -17,7 +17,9 @@ function Nav() {
                     <p className='indItem'>Resume</p>
                     </Link>
                     <p className='indItem'>Contact</p>
-                    
+                    {/* <div className='navMenuCopy' ></div>
+                    <div className='navMenuCopy2' ></div>
+                    <div className='navMenuCopy3' ></div> */}
 
                 </div>
             </div>

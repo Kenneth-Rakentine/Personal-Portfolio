@@ -8,9 +8,10 @@ function ParallaxFX() {
     <div>
        <Parallax pages={4}>
 
+    
        <ParallaxLayer
             className='collage2'
-            speed={.5}
+            speed={1.5}
             offset={4}
             factor={4}
             style={{
@@ -20,11 +21,12 @@ function ParallaxFX() {
             >
 
     </ParallaxLayer>
+       
 
        <ParallaxLayer
         className='collageImg'
         speed={1}
-        offset={1}
+        offset={0}
         factor={4}
         style={{
           backgroundImage: "url(https://i.ibb.co/55gLGzf/37Wseut.jpg)",
@@ -35,11 +37,37 @@ function ParallaxFX() {
 
         <ParallaxLayer
         speed={1.5}
+        horizontal={true}
         >
         <img className='collage1' src='https://i.ibb.co/ZHyNtyk/collage-1.png'/>
         </ParallaxLayer>
 
-     
+        <ParallaxLayer
+        speed={1.1}
+        horizontal={true}
+        >
+        <img className='collage4' src='https://i.ibb.co/6tnjsq9/Untitled-2.png'/>
+        </ParallaxLayer>
+
+        <ParallaxLayer
+        speed={1.1}
+        horizontal={true}
+        >
+        <img className='collage5' src='https://i.ibb.co/Lh853H7/Untitled-3.png'/>
+        </ParallaxLayer>
+
+        {/* <ParallaxLayer
+        className='collageImg3'
+        speed={.3}
+        offset={4}
+        factor={4}
+        // style={{
+        //   backgroundImage: "url('https://i.ibb.co/Lh853H7/Untitled-3.png')",
+        //   backgroundSize: 'cover',
+        // }}
+        >
+          <img  src='https://i.ibb.co/Lh853H7/Untitled-3.png'/>
+        </ParallaxLayer> */}
 
        </Parallax>
           

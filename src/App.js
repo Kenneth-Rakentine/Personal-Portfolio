@@ -10,6 +10,7 @@ import Projects from './pages/Projects';
 import Resume from './pages/Resume';
 import ParallaxFX from './components/ParallaxFX';
 import { Parallax } from 'react-scroll-parallax';
+import Links from './pages/Links';
 
 function App() {
 
@@ -27,7 +28,8 @@ function App() {
           <Route path="/" element={<Logo />} />
           <Route path="/project" element={<Projects/>}/>
           <Route path="/resume" element={<Resume/>}/>
-        </Routes>
+          <Route path="/links" element={<Links/>}/>
+         </Routes>
       </div>
       <ParallaxFX/>
       {/* <img className='collageImg' src='https://i.ibb.co/55gLGzf/37Wseut.jpg'/> */}

@@ -5,7 +5,7 @@ import { ParallaxBanner } from 'react-scroll-parallax'
 function ParallaxFX() {
 
   return (
-    <div>
+    <div className='parallaxContainer'>
        <Parallax pages={4}>
 
     
@@ -53,6 +53,10 @@ function ParallaxFX() {
         horizontal={true}
         >
         <img className='collage5' src='https://i.ibb.co/Lh853H7/Untitled-3.png'/>
+        </ParallaxLayer>
+
+        <ParallaxLayer
+        speed={.5}> <p className='skillsTxt'> HTML5, CSS, Javascript, Express.js, <br></br> React.js. Sql, Git. Node.js MongoDB </p>
         </ParallaxLayer>
 
         {/* <ParallaxLayer

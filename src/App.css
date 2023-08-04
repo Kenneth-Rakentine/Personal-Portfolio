@@ -306,7 +306,7 @@ filter: drop-shadow(1px 10px 10px #140808);
   filter: brightness(.8);
   transform: translate3d(-250deg);
   filter: drop-shadow(-2px 40px 40px #140808);
-background-image: url('https://img1.picmix.com/output/stamp/normal/1/9/9/6/326991_51eb4.gif');
+/* background-image: url('https://img1.picmix.com/output/stamp/normal/1/9/9/6/326991_51eb4.gif'); */
   
 }
 76%{
@@ -490,7 +490,7 @@ margin-bottom:8px;
 }
 
 .parallaxContainer{
-  height: 100vh;
+  height: 900%;
   overflow: hidden; 
 
 }
@@ -555,6 +555,15 @@ margin-bottom:8px;
 .collage4{
   margin-top:160%;
   margin-right:-120%;
+}
+
+.skillsTxt{
+  font-size: 42px;
+  margin-top:85%;
+  opacity:.8;
+  line-height: 62px;
+  letter-spacing:9px;
+  color: #130606;
 }
 
 /* .collage6{

@@ -32,6 +32,7 @@ function App() {
          </Routes>
       </div>
       <ParallaxFX/>
+      {/* <img classname='hurricaneGif'  src='https://i.gifer.com/FpO7.gif'/> */}
       {/* <img className='collageImg' src='https://i.ibb.co/55gLGzf/37Wseut.jpg'/> */}
     </div>
   );

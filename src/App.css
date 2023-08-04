@@ -7,6 +7,10 @@ body {
   /* font-family: 'Poppins', sans-serif; */
 }
 
+::-webkit-scrollbar{
+  display: none;
+}
+
 .App {
   text-align: center;
   
@@ -502,6 +506,11 @@ margin-bottom:8px;
   color: #fff;
   transform: translateY(-1px);
 }
+
+/* .parallaxContainer::webkit-scrollbar{
+display:none;
+
+} */
 
 .parallaxContainer{
   height: 900%;

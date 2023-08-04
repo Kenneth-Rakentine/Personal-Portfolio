@@ -60,6 +60,14 @@ function ParallaxFX() {
         </ParallaxLayer>
 
         {/* <ParallaxLayer
+        speed={1.5}
+        horizontal={true}
+        offset={-4}
+        >
+        <img className='collage1' src='https://i.ibb.co/ZHyNtyk/collage-1.png'/>
+        </ParallaxLayer> */}
+
+        {/* <ParallaxLayer
         speed={1.1}
         horizontal={true}
         >

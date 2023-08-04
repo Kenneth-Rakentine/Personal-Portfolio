@@ -422,10 +422,92 @@ animation: clicker .5s linear forwards;
  100% { transform: skewY(0deg); }
 }
 
+.projectContainer{
+  display:block;
+  justify-content:center;
+  align-self:center;
+/* border:solid black; */
+color:rgb(58, 29, 29);
+font-family:Poppins, sans-serif;
+width:50%;
+/* height:105%; */
+margin-left:25%;
+box-shadow:2px 3px 4px 3px rgb(44, 39, 39);
+background-color:rgba(189, 189, 189, 0.356);
+}
+
 
 .projects{
-  margin-left:-5%;
+  display:flex;
+  margin-left:0%;
+  /* border:solid blue; */
+  width:100%;
+  color:rgb(41, 21, 21);
+  /* height:105%; */
+  background-color: #76839e71;
+  box-shadow:2px 3px 4px 3px rgb(44, 39, 39);
+
 }
+
+#carousel{
+  /* display:flex; */
+/* border:solid red; */
+background-color:#3e4e5248;
+width:40%;
+/* height:600px; */
+/* margin-bottom:5%; */
+margin-left:0%;
+}
+
+.rightColumn{
+  margin-top:15%;
+  margin-left:5%;
+  height:100%;
+width:50%;
+box-shadow:2px 3px 1.7px 3px rgb(70, 74, 82);
+border-radius:5px;
+}
+
+.project{
+/* display:block; */
+/* height:100%; */
+width:100%;
+align-self:center;
+margin-top:-5%;
+margin-left:-5px;
+background-color:rgba(179, 176, 176, 0.733);
+box-shadow:2px 2px 3px 2px rgb(70, 74, 82);
+border: .3px solid rgb(59, 55, 55);
+margin-bottom:-3%;
+border-radius:5px;
+}
+
+.project:hover{
+  /* display:block; */
+  /* height:100%; */
+  width:100%;
+  align-self:center;
+  margin-top:-5%;
+  margin-left:-5px;
+  background-color:rgba(102, 93, 93, 0.479);
+  box-shadow:2px 4px 3px 4px rgb(70, 74, 82);
+  border: .3px solid rgb(59, 55, 55);
+  margin-bottom:-3%;
+  cursor:pointer;
+  border-radius:6px;
+  }
+
+.projectImg{
+  width:60%;
+  cursor:pointer;
+}
+
+.projectImg:hover{
+  /* width:35%; */
+  box-shadow: 0px 8px 9px rgb(90, 26, 26);
+  opacity:.5;
+}
+
 #boxLogo{
   margin-top:5%;
   height:75px;
@@ -468,15 +550,7 @@ animation: clicker .5s linear forwards;
 } */
 
 
-.projectImg{
-  width:30%;
-}
 
-.projectImg:hover{
-  width:35%;
-  box-shadow: 0px 8px 9px rgb(90, 26, 26);
-  opacity:.5;
-}
 
 .resumeSection{
   display:block;
@@ -560,7 +634,7 @@ display:none;
 } */
 
 .collage2{
-  margin-top:180%;
+  margin-top:230%;
   /* position:fixed; */
   width:50%;
   opacity:1.6;

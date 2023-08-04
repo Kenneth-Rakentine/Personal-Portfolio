@@ -3,8 +3,13 @@ import axios from 'axios'
 import { useState, useEffect } from 'react'
 
 function Projects() {
+  const [selectedProject, setSelectedProject] = useState(null)
 
-    const [projects, setProjects] = useState([])
+  const [projects, setProjects] = useState([])
+
+  const projectClick = (project) => {
+      setSelectedProject(project)
+    }
 
     useEffect(()=>{
         getProjects()
@@ -20,54 +25,63 @@ function Projects() {
         specificRepos.includes(project.name)
       )
 
-            filteredProjects.forEach((project) => {
-              switch (project.name) {
-                case 'Ghost-Hunter-Game':
-                  project.image_url = 'https://i.ibb.co/51fx5WP/gh-1.jpg'
-                  break
-                case 'Employee-Directory-REACT':
-                  project.image_url = 'https://i.ibb.co/kmPXqPs/gh2.png'
-                  break
-                case 'Netflix-Functions-Mockup':
-                  project.image_url = 'https://i.ibb.co/SPRCp8R/gh3.png'
-                  break
-                case 'Omdb-Api':
-                    project.image_url = 'https://i.ibb.co/Xz80Kr0/gh4.png'
-                  break
-                case 'PerScholas-Responsive-Site':
-                      project.image_url = 'https://i.ibb.co/qxYC1NM/gh5.png'
-                  break
-                case 'PerScholasReactGP':
-                        project.image_url = 'https://i.ibb.co/hZZY5ky/gh6.png'
-                  break
-                default:
-                  project.image_url = 'https://avatars.githubusercontent.com/u/41464290?v=4'
-              }
-            })
+      const updatedProjects = filteredProjects.map((project) => {
+        switch (project.name) {
+          case 'Ghost-Hunter-Game':
+            return { ...project, image_url: 'https://i.ibb.co/51fx5WP/gh-1.jpg' };
+          case 'Employee-Directory-REACT':
+            return { ...project, image_url: 'https://i.ibb.co/kmPXqPs/gh2.png' };
+          case 'Netflix-Functions-Mockup':
+            return { ...project, image_url: 'https://i.ibb.co/SPRCp8R/gh3.png' };
+          case 'Omdb-Api':
+            return { ...project, image_url: 'https://i.ibb.co/Xz80Kr0/gh4.png' };
+          case 'PerScholas-Responsive-Site':
+            return { ...project, image_url: 'https://i.ibb.co/qxYC1NM/gh5.png' };
+          case 'PerScholasReactGP':
+            return { ...project, image_url: 'https://i.ibb.co/hZZY5ky/gh6.png' };
+          default:
+            return { ...project, image_url: 'https://avatars.githubusercontent.com/u/41464290?v=4' };
+        }
+      })
 
         // const sixProjects = result.data.slice(0, 6)
         // setProjects(sixProjects)
-        setProjects(filteredProjects)
+        setProjects(updatedProjects)
     } catch (error) {
         console.error('Error Fetching Projects:', error)
     }
+
+  
+
     }
 
   return (
 
 
-    <div>
+    <div className='projectContainer'>
         <h1>Projects</h1>
         <div className='projects'>
         <div id="carousel">
+          <h4>Select:</h4>
         {projects.map((project) => (
-          <figure><ul key={project.id}>
-            <a href={project.html_url}>
+          <figure className='project'  key={project.id}>
+            <ul onClick={() => projectClick(project)}>
+            <a href={project.html_url} onClick={(e) => e.stopPropagation()}>
              <img className='projectImg' src={project.image_url} alt={project.name} /> 
             </a>
           </ul>
           </figure> 
         ))}
+        </div>
+        <div className='rightColumn'>
+          {selectedProject && (
+            <div>
+              <h2>{selectedProject.name}</h2>
+              <img className='projectImg' src={selectedProject.image_url} alt={selectedProject.name} /> 
+              <p>{selectedProject.description}</p>
+              <a href={selectedProject.html_url}>GitHub Link</a>
+            </div>
+          )}
         </div>
         </div>
         

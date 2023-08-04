@@ -5,7 +5,7 @@ function BoxLogo() {
   return (
     <div>
       <Link to="/" >
-        <img src='https://i.ibb.co/25Rwh3Y/KR-boxlogo3.png" alt="KR-boxlogo2' id='boxLogo'></img>
+        <img src='https://i.ibb.co/g7MDBqy/k1-cut.png' id='boxLogo'></img>
         </Link>
     </div>
   )

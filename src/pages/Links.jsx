@@ -9,8 +9,8 @@ const gitLink = 'https://github.com/Kenneth-Rakentine?tab=repositories'
 const igLink = 'https://www.instagram.com/future__________/'
 
   return (
-    <div>
-      <h1>Links</h1>
+    <div className='linksContainer'>
+      {/* <h1>Links</h1> */}
       <a href={linkedIn} target="_blank">
       <img
           src="https://pngimg.com/uploads/linkedIn/linkedIn_PNG19.png" 

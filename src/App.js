@@ -20,7 +20,9 @@ function App() {
     <div className="App">
       <div className='masterContainer'>
         <HeadBar/>
-      <BoxLogo/>
+        <BoxLogo/>
+        <Links/>
+      
         <Nav />
         <Name />
         {/* <Logo/> */}
@@ -36,6 +38,7 @@ function App() {
       <ParallaxFX/>
       {/* <img classname='hurricaneGif'  src='https://i.gifer.com/FpO7.gif'/> */}
       {/* <img className='collageImg' src='https://i.ibb.co/55gLGzf/37Wseut.jpg'/> */}
+      
     </div>
   );
 }

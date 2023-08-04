@@ -27,16 +27,18 @@ width:1300px;
 
 .headBarContainer{
   border: .7px solid rgb(90, 26, 26);
-  background-color: #4C5355;
-  opacity:.8;
-  height:50px;
+  box-shadow: 2px 2px 10px 7px rgba(43, 16, 16, 0.445);
+  background-color: #a09a9a7c;
+  opacity:.6;
+  height:32px;
 }
 
 .headBarContainer:hover{
   border: .7px solid rgb(90, 26, 26);
-  background-color: #8f2727;
-  opacity:1;
-  height:50px;
+  background-color: #a13e3e;
+  opacity:.3;
+  box-shadow: 2px 2px 8px 8px rgba(43, 16, 16, 0.445);
+
 }
 
 .mastercontainer {
@@ -167,11 +169,13 @@ animation-delay: 0ms;
 .nameContainer {
   display: flex;
   /* position: relative; */
+  width:400px;
 }
 
 .nameTxt {
   display: flex;
   justify-content: center;
+  width:800px;
   font-family: 'Bebas Neue', sans-serif;
   color: #C44B4F;
   text-shadow: 4px 9px 8px #3f4f53;
@@ -179,7 +183,8 @@ animation-delay: 0ms;
   letter-spacing:5px;
   /* align-self: start; */
   align-items: start;
-  margin-top: -370px;
+  margin-top: -500px;
+  margin-left:20%;
   z-index:2;
   animation: txtBkg linear 6s infinite;
 }
@@ -259,7 +264,7 @@ animation-delay: 0ms;
 #cubeLogo{
   height:270px;
   /* width:15%; */
-  margin-top: -74px;
+  margin-top: -30px;
   filter: drop-shadow(3px 8px 6px #140808);
   animation: logoSpin 3.5s linear infinite;
   z-index:1;
@@ -372,7 +377,7 @@ content: url('https://i.ibb.co/tYKwX8j/Cube-TWO-cut-COLOR-CORRECTED4.png');
 
 #cubeLogo:hover{
   height:270px;
-  margin-top: -74px;
+  margin-top: -30px;
   filter: drop-shadow(3px 8px 6px #140808);
   animation: logoHover 1.3s linear infinite;
 }
@@ -419,27 +424,27 @@ animation: clicker .5s linear forwards;
   margin-left:-5%;
 }
 #boxLogo{
-  margin-top:2.4%;
-  height:60px;
+  margin-top:4.4%;
+  height:75px;
   align-self:start;
   justify-content:start;
   margin-left:-87%;
-  border-radius:10px;
-  box-shadow: 3px 2px 2px 4px #1f2729;
-  opacity:.8;
-
+  /* border-radius:10px; */
+  /* box-shadow: 3px 2px 2px 4px #1f2729; */
+  opacity:.6;
+ 
 }
 
 #boxLogo:hover{
-  margin-top:2.4%;
-  height:63px;
+  margin-top:4.4%;
+  height:75px;
   align-self:start;
   justify-content:start;
   /* margin-left:-1385px; */
   margin-left:-87%;
   border-radius:10px;
-  box-shadow: 1px 2px 2px 5.4px #be3333;
-  opacity: .54;
+  /* box-shadow: 1px 2px 2px 5.4px #be3333; */
+  opacity: .3;
 }
 
 .projects{
@@ -552,7 +557,7 @@ display:none;
 } */
 
 .collage2{
-  margin-top:210%;
+  margin-top:220%;
   /* position:fixed; */
   width:50%;
   opacity:1.6;
@@ -580,6 +585,13 @@ display:none;
   margin-right:-120%;
 }
 
+.collage6{
+margin-top:0%;
+margin-left:68%;
+
+}
+
+
 .skillsTxt{
   font-size: 42px;
   margin-top:85%;
@@ -589,45 +601,61 @@ display:none;
   color: #130606;
 }
 
-/* .collage6{
-  margin-top:100%;
-  margin-right:10%;
-} */
+
 
 .hurricaneGif{
   margin-top: 900px;
 }
 
+.linksContainer{
+ width:40%;
+ margin-top:-4.2%;
+ margin-left:59%;
+ padding-left:-400px;
+}
+
 .linkedinIcon{
-width:10%;
-opacity:.8;
+width:8.5%;
+opacity:.6;
+margin-left:80%;
+margin-bottom:5px;
 }
 
 .linkedinIcon:hover{
-  width:10%;
-  opacity:1;
+  width:8.5%;
+opacity:1;
+margin-left:80%;
+margin-bottom:5px;
   }
 
 .gitIcon{
-  width:10.3%;
-  opacity:.8;
-  margin-left:22px;
+  width:8.5%;
+  opacity:.6;
+  margin-left:80%;
+  margin-bottom:5px;
   }
 
-  .gitIcon:hover{
-    width:10.3%;
-    opacity:1.1;
-    margin-left:22px;
+.gitIcon:hover{
+    width:8.5%;
+    opacity:1;
+    margin-left:80%;
+    margin-bottom:5px;
     }
 
-    .igIcon{
-      width:10.3%;
-      opacity:.9;
-      margin-left:22px;
-      }
+  .igIcon{
+      width:8.5%;
+  opacity:.6;
+  margin-left:80%;
+  margin-bottom:5px;
+   }
     
-      .igIcon:hover{
-        width:10.3%;
-        opacity:1.1;
-        margin-left:22px;
-        }
+  .igIcon:hover{
+    width:8.5%;
+     opacity:1;
+    margin-left:80%;
+     margin-bottom:5px;
+     }
+
+  .footer{
+   margin-top:300%;;
+   }

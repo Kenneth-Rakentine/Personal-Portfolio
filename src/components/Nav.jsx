@@ -9,9 +9,9 @@ function Nav() {
                     <Link to="/project" style={{ textDecoration: 'none' }}>
                     <p className='indItem'>Projects</p>
                     </Link>
-                    <Link to="/links" style={{textDecoration: 'none'}}>
+                    {/* <Link to="/links" style={{textDecoration: 'none'}}>
                     <p className='indItem'>Links</p>
-                    </Link>
+                    </Link> */}
                     <p className='indItem'>About</p>
                     <Link to="/resume" style={{ textDecoration: 'none' }}>
                     <p className='indItem'>Resume</p>

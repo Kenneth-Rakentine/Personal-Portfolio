@@ -59,13 +59,11 @@ function ParallaxFX() {
         speed={.5}> <p className='skillsTxt'> HTML5, CSS, Javascript, Express.js, <br></br> React.js. Sql, Git. Node.js MongoDB </p>
         </ParallaxLayer>
 
-        {/* <ParallaxLayer
+        <ParallaxLayer
         speed={1.5}
-        horizontal={true}
-        offset={-4}
         >
-        <img className='collage1' src='https://i.ibb.co/ZHyNtyk/collage-1.png'/>
-        </ParallaxLayer> */}
+        <img className='collage1' src='https://i.ibb.co/30NGrPb/collage-1.png'/>
+        </ParallaxLayer>
 
         {/* <ParallaxLayer
         speed={1.1}

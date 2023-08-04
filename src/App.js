@@ -12,6 +12,7 @@ import ParallaxFX from './components/ParallaxFX';
 import { Parallax } from 'react-scroll-parallax';
 import Links from './pages/Links';
 import HeadBar from './components/HeadBar';
+import Footer from './components/Footer';
 
 function App() {
 
@@ -36,6 +37,7 @@ function App() {
          </Routes>
       </div>
       <ParallaxFX/>
+      <Footer/>
       {/* <img classname='hurricaneGif'  src='https://i.gifer.com/FpO7.gif'/> */}
       {/* <img className='collageImg' src='https://i.ibb.co/55gLGzf/37Wseut.jpg'/> */}
       

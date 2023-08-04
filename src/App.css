@@ -5,6 +5,7 @@ body {
   /* font-family: 'Orbitron', sans-serif; */
   /* font-family: 'Bebas Neue', sans-serif; */
   /* font-family: 'Poppins', sans-serif; */
+ 
 }
 
 ::-webkit-scrollbar{
@@ -13,7 +14,7 @@ body {
 
 .App {
   text-align: center;
-  
+  height:60%;
 
 }
 
@@ -170,13 +171,13 @@ animation-delay: 0ms;
 .nameContainer {
   display: flex;
   /* position: relative; */
-  width:400px;
+  width:50%;
 }
 
 .nameTxt {
   display: flex;
   justify-content: center;
-  width:800px;
+  width:60%;
   font-family: 'Bebas Neue', sans-serif;
   color: #C44B4F;
   text-shadow: 4px 9px 8px #3f4f53;
@@ -185,7 +186,7 @@ animation-delay: 0ms;
   /* align-self: start; */
   align-items: start;
   margin-top: -500px;
-  margin-left:25%;
+  margin-left:20%;
   margin-bottom:4%;
   z-index:2;
   animation: txtBkg linear 6s infinite;
@@ -613,7 +614,7 @@ margin-left:68%;
  width:40%;
  margin-top:-5.3%;
  margin-left:59%;
- padding-left:-400px;
+ /* padding-left:-400px; */
 }
 
 .linkedinIcon{
@@ -658,7 +659,58 @@ margin-bottom:5px;
      margin-bottom:5px;
      }
 
-  .footer{
-   margin-top:300%;;
+  .footContainer{
+  }
+
+  .footerTxt{
+   margin-top:300%;
+   color:rgb(61, 27, 27);
+   font-weight:500;
+   letter-spacing:.7px;
    }
-   
+
+   .footLogo{
+    width:10%;
+    opacity:.6
+   }
+
+
+   /* ------MEDIA-Q Just BELOW Max Screen-Size */
+   @media(max-width: 1565px) {
+
+    .nameTxt {
+      display: flex;
+      justify-content: center;
+      width:60%;
+      font-family: 'Bebas Neue', sans-serif;
+      color: #C44B4F;
+      text-shadow: 4px 9px 8px #3f4f53;
+      font-size: 102px;
+      letter-spacing:5px;
+      align-items: start;
+      margin-top: -500px;
+      margin-left:20%;
+      margin-bottom:4%;
+      z-index:2;
+      animation: txtBkg linear 6s infinite;
+    }
+   }
+
+   @media(max-width: 1565px){
+    nameTxt {
+      display: flex;
+      justify-content: center;
+      width:60%;
+      font-family: 'Bebas Neue', sans-serif;
+      color: #C44B4F;
+      text-shadow: 4px 9px 8px #3f4f53;
+      font-size: 102px;
+      letter-spacing:5px;
+      align-items: start;
+      margin-top: -400px;
+      margin-left:30%;
+      margin-bottom:4%;
+      z-index:2;
+      animation: txtBkg linear 6s infinite;
+    }
+   }

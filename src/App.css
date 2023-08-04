@@ -21,6 +21,20 @@ width:1300px;
   height:640px;
 } */
 
+.headBarContainer{
+  border: .7px solid rgb(90, 26, 26);
+  background-color: #4C5355;
+  opacity:.8;
+  height:50px;
+}
+
+.headBarContainer:hover{
+  border: .7px solid rgb(90, 26, 26);
+  background-color: #8f2727;
+  opacity:1;
+  height:50px;
+}
+
 .mastercontainer {
   display: flex;
 }

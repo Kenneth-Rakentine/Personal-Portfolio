@@ -11,6 +11,7 @@ import Resume from './pages/Resume';
 import ParallaxFX from './components/ParallaxFX';
 import { Parallax } from 'react-scroll-parallax';
 import Links from './pages/Links';
+import HeadBar from './components/HeadBar';
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
   return (
     <div className="App">
       <div className='masterContainer'>
+        <HeadBar/>
       <BoxLogo/>
         <Nav />
         <Name />

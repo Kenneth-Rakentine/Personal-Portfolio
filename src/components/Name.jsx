@@ -7,9 +7,12 @@ function Name() {
     }
     return (
         <div className='namecontainer'>
-            <strong onClick={reload} className='nameTxt'>
+            {/* <strong onClick={reload} className='nameTxt'>
                 Kenny Rakentine
-            </strong>
+            </strong> */}
+            <div className='nameImgBkg'>
+            <img  onClick={reload} className='nameImg' src='https://i.ibb.co/TRg4Jcb/Name-TYPOGRAPHY3.png'></img>
+            </div>
         </div>
     )
 }

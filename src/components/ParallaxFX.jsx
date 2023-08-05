@@ -71,6 +71,14 @@ function ParallaxFX() {
         <img className='collage6' src='https://i.ibb.co/fkDHjnX/Untitled-7.png'/>
         </ParallaxLayer>
 
+        <ParallaxLayer
+        speed={.4}
+        horizontal={false}>
+           <p className='skillsTxt2'> SOFTWARE </p>
+
+<p className='skillsTxt3'> ENGINEER </p>
+        </ParallaxLayer>
+
         {/* <ParallaxLayer
         speed={1.1}
         horizontal={true}

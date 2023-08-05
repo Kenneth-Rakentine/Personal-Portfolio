@@ -8,9 +8,9 @@ body {
  
 }
 
-::-webkit-scrollbar{
+/* ::-webkit-scrollbar{
   display: none;
-}
+} */
 
 .App {
   text-align: center;
@@ -215,7 +215,7 @@ animation-delay: 0ms;
 margin-top:-160%;
 width:58%;
 /* height:50%; */
-margin-bottom:1.0%;
+margin-bottom:3%;
 margin-right:9%;
 animation: sphereMotion 3.7s ease-in-out infinite;
 }
@@ -685,7 +685,12 @@ display:none;
 .parallaxContainer{
   height: 900%;
   overflow: hidden; 
+  scrollbar-width: none;  
+  -ms-overflow-style: none;
+}
 
+.parallaxContainer::-webkit-scrollbar {
+  display: none;
 }
 
 .collage1{

@@ -138,6 +138,8 @@ http://www.jonny.me/
 
 **create wireframe either with sketches/block-diagram, pseudocode and paste screenshot here**
 
+![Sketch Outline](https://i.ibb.co/f1zf39M/Portfolio-Page-Outline-Sketch.png)
+
 ### Component Hierarchy Diagram
 
 [FIigma](https://www.figma.com/)
@@ -182,14 +184,17 @@ have a little nav "cell"/capsule floating in the middle(upper center) of the lef
 
 ![Screenshot](https://i.ibb.co/qDn9tW8/Earlier-Site-Design.png)
 
-https://i.ibb.co/qDn9tW8/Earlier-Site-Design.png
-
 ### Tech Utilized
 
 **Image Filehosting:** [IMGBB](https://imgbb.com/)
 **Component Diagram:** [FIigma](https://www.figma.com/)
-**Logo Image Generation:**[BlueWillow](https://www.bluewillow.ai/) \\discord : [ imagine/: in one of the "Rookie" channels ]\* & Photoshop to create a logo/cool looking clickable "button"-style icon to take you back "Home"\\
-**Image Generation** [Adobe Firefly](https://firefly.adobe.com/inspire/images)
+**Logo Image Generation:**[BlueWillow](https://www.bluewillow.ai/)
+
+**Image Generation** -[Adobe Firefly](https://firefly.adobe.com/inspire/images)
+
+-[DreamStudio AI](https://dreamstudio.ai)
+
+-Adobe Photoshop 2023
 
 #### Credits
 

@@ -182,7 +182,10 @@ have a little nav "cell"/capsule floating in the middle(upper center) of the lef
 
 ### Screenshots
 
+**Chronological Design Progress**
 ![Screenshot](https://i.ibb.co/qDn9tW8/Earlier-Site-Design.png)
+
+![Screenshot 2](https://i.ibb.co/cQ06FVc/screenshot-2.png)
 
 ### Tech Utilized
 

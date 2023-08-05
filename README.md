@@ -70,6 +70,8 @@ have a little nav "cell"/capsule floating in the middle(upper center) of the lef
 
 ![Screenshot 3](https://i.ibb.co/VBDfYQZ/screenshot-3.png)
 
+![Screenshot Logo](https://i.ibb.co/7gd2CTs/Cube-TWO-cut-COLOR-CORRECTED3.png)
+
 ### Tech Utilized
 
 -React.js

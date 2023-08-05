@@ -641,57 +641,151 @@ border-radius:5px;
 .contactContainer{
   color:rgb(58, 29, 29);
   font-family:Poppins, sans-serif;
+  display:block;
+  justify-content:center;
+  margin-top:7%;
+}
+.contactFlex{
+  margin-top:5%;
+  display:flex;
+  justify-content:center;
 }
 
 .emailTxt{
   font-size:40px;
-  color:rgb(63, 34, 68);
+  color:rgb(60, 45, 63);
   text-decoration: none;
-  font-weight:400
+  font-weight:400;
+  border: 3.7px solid rgb(114, 96, 114);
+  background-color: rgba(112, 83, 83, 0.568); 
+  padding-right:24px;
+  padding-left:24px;
+  border-radius:27px;
+  margin:30px;
+  background-image: url(https://i.gifer.com/FpO7.gif);
+
+  /* animation:float 3s ease-in-out infinite; */
 }
 
 .emailTxt:hover{
   font-size:40px;
-  color:rgb(195, 145, 204);
+  color:rgb(143, 115, 148);
+  background-color: rgba(114, 92, 92, 0.733); 
   text-decoration: none;
   border-bottom: 9.6px solid rgb(79, 41, 94);
-  
+  border: 3.7px   solid silver;
 }
 
 .linkedInContactTxt{
   margin-top:6px;
   font-size:40px;
-  font-weight:500;
-  color:rgb(71, 36, 71);
+  font-weight:400;
+  color:rgb(69, 39, 75);
   text-decoration: none;
   line-height:100px;
+  border: 3.7px solid rgb(114, 96, 114);
+  background-color: rgba(112, 83, 83, 0.568); 
+  padding-right:24px;
+  padding-left:24px;
+  border-radius:27px;
+  margin:30px;
+  background-image: url(https://i.gifer.com/FpO7.gif);
+
+  /* animation:float2 3s ease-in-out infinite; */
 }
 
 .linkedInContactTxt:hover{
   font-size:40px;
-  color:rgb(195, 145, 204);
+  color:rgb(143, 115, 148);
+  background-color: rgba(114, 92, 92, 0.733); 
   text-decoration: none;
   border-bottom: 9.6px solid rgb(79, 41, 94);
+  border: 3.7px   solid silver;
 }
 
 .githubTxt{
   font-size:40px;
-  color:rgb(143, 115, 148);
+  color: rgb(46, 28, 49);
   text-decoration: none;
+  border: 3.7px solid rgb(114, 96, 114);
+  background-color: rgba(112, 83, 83, 0.568);  padding-right:24px;
+  padding-left:24px;
+  border-radius:27px;
+  margin:30px;
+  font-weight:400;
+  background-image: url(https://i.gifer.com/FpO7.gif);
+
+  /* animation: float3 3.4s ease-in-out infinite; */
 }
 
 .githubTxt:hover{
   font-size:40px;
-  color:rgb(195, 145, 204);
+  color:rgb(143, 115, 148);
+  background-color: rgba(114, 92, 92, 0.733); 
   text-decoration: none;
   border-bottom: 9.6px solid rgb(79, 41, 94);
+  border: 3.7px solid silver;
 }
+.contactFloat{
+  /* display:flex; */
+  animation: float 3.8s ease-in-out infinite;
+}
+
+.contactFloat2{
+  /* display:flex; */
+  animation: float2 4.2s ease-in-out infinite;
+}
+
+.contactFloat3{
+  /* display:flex; */
+  animation: float3 3.5s ease-in-out infinite;
+}
+
+
+/* @keyframes float {
+  0% { transform: translate(0,  0px); }
+  35%{
+    transform:translateX(-23, 6px);
+  }
+  50%  { transform: translate(0, 24px); }
+  70%{
+    transform:translatex(-12px);
+  }
+  100%   { transform: translate(0, -0px); }   
+}
+
+@keyframes float2 {
+  0% { transform: translate(0,  0px); }
+  35%{
+    transform:translateX(13, -36px);
+  }
+  50%  { transform: translate(0, 15px); }
+  70%{
+    transform:translatex(-6,10px);
+  }
+  100%   { transform: translate(0, -0px); }   
+}
+
+@keyframes float3 {
+  0% { transform: translate(0,  0px); }
+  35%{
+    transform:translateX(-2, 16px);
+  }
+  50%  { transform: translate(-20, 15px); }
+  70%{
+    transform:translatex(17, -22px);
+  }
+  100%   { transform: translate(0, -0px); }   
+} */
+
+
 
 .aboutcontainer{
 
 }
 
 .aboutHeadTxt{
+  margin-top:7%;
   color:rgb(58, 29, 29);
   font-family:Poppins, sans-serif;
 }
@@ -796,7 +890,7 @@ display:none;
 
 
 .collage2{
-  margin-top:200%;
+  margin-top:180%;
   /* position:fixed; */
   width:50%;
   opacity:1.6;
@@ -933,6 +1027,8 @@ margin-bottom:5px;
    } */
 
 
+
+
    /* ------MEDIA-Q Just BELOW Max Screen-Size */
    @media(max-width: 1565px) {
 
@@ -972,3 +1068,5 @@ margin-bottom:5px;
       animation: txtBkg linear 6s infinite;
     }
    }
+
+   

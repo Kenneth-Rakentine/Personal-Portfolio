@@ -337,7 +337,7 @@ animation: sphereMotion 3.7s ease-in-out infinite;
 }
 
 #cubeLogo{
-  height:185px;
+  height:115px;
   /* width:15%; */
   margin-top: -400px;
   margin-left:57%;
@@ -345,6 +345,7 @@ animation: sphereMotion 3.7s ease-in-out infinite;
   filter: drop-shadow(3px 8px 6px #140808);
   /* animation: logoSpin 3.5s linear infinite; */
   animation: floating 3s ease-in-out infinite;
+  opacity:.7;
   z-index:1;
 }
 
@@ -460,14 +461,14 @@ content: url('https://i.ibb.co/tYKwX8j/Cube-TWO-cut-COLOR-CORRECTED4.png');
 }
 
 #cubeLogo:hover{
-  height:205px;
+  height:118px;
   /* width:15%; */
   margin-top: -380px;
-  margin-left:45%;
+  margin-left:55%;
   margin-bottom:10%;
   filter: drop-shadow(3px 8px 6px #140808);
   /* animation: logoSpin 3.5s linear infinite; */
-  
+  opacity:.4;
   animation: logoHover 1.3s linear infinite;
 }
 

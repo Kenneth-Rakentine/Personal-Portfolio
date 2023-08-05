@@ -180,6 +180,10 @@ have a little nav "cell"/capsule floating in the middle(upper center) of the lef
 
 ### Screenshots
 
+![Screenshot](https://i.ibb.co/qDn9tW8/Earlier-Site-Design.png)
+
+https://i.ibb.co/qDn9tW8/Earlier-Site-Design.png
+
 ### Tech Utilized
 
 **Image Filehosting:** [IMGBB](https://imgbb.com/)

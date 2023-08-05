@@ -1,6 +1,6 @@
 # Personal Portfolio
 
-![LOGO](https://i.ibb.co/k0zGvp9/CROPPED-KR-CUBE-color-edit-GOOD.png)
+![LOGO](https://i.ibb.co/pjRDGkw/Name-TYPOGRAPHY4.png)
 
 ## Canvas Assignment Link:
 

@@ -8,13 +8,13 @@ body {
  
 }
 
-/* ::-webkit-scrollbar{
+::-webkit-scrollbar{
   display: none;
-} */
+}
 
 .App {
   text-align: center;
-  height:60%;
+  height:900px;
 
 }
 
@@ -53,7 +53,7 @@ width:1300px;
 }
 
 .navMenu {
-  background-color: #b97eb1b0;
+  background-color: #ac83a5b0;
   ;
   opacity:.7;
   border-radius: 30px;
@@ -642,6 +642,8 @@ border-radius:5px;
 
 .resumeSection{
   display:block;
+  color:rgb(58, 29, 29);
+font-family:Poppins, sans-serif;
 }
 
 .resumeHeadTxt{
@@ -683,7 +685,7 @@ display:none;
 } */
 
 .parallaxContainer{
-  height: 900%;
+  height: 100%;
   overflow: hidden; 
   scrollbar-width: none;  
   -ms-overflow-style: none;
@@ -700,34 +702,10 @@ display:none;
   height:40%; */
 }
 
-/* .collagenull{
-  margin-top:140%;
-  margin-left:40%;
-  position:absolute;
-  inset:0;
-  right:1;
-} */
-/* 
-.collageImg{
-  margin-top: 10%;
-  width:100%;
-  opacity:.2;
-  z-index: 0;
-  perspective:800px;
-  transform-style: preserve-3d;
-}
+
 
 .collage2{
-  margin-top:240%;
-  margin-left:40%;
-  height:100%;
-  position:absolute;
-  inset:0;
-  right:1;
-} */
-
-.collage2{
-  margin-top:210%;
+  margin-top:180%;
   /* position:fixed; */
   width:50%;
   opacity:1.6;
@@ -736,10 +714,10 @@ display:none;
 .collageImg{
   margin-top: 10%;
   width:100%;
-  height:200%;
+  height:100%;
   opacity:.2;
   /* z-index: 0; */
-  perspective:1600px;
+  /* perspective:1600px; */
   transform-style: preserve-3d;
   position:relative;
   z-index: 1;
@@ -772,8 +750,8 @@ margin-left:68%;
 }
 
 .skillsTxt2{
-  font-size: 42px;
-  margin-top:52%;
+  font-size: 68px;
+  margin-top:62%;
   margin-right:39%;
   opacity:.8;
   line-height: 62px;
@@ -782,8 +760,8 @@ margin-left:68%;
 }
 
 .skillsTxt3{
-  font-size: 42px;
-  margin-top:61%;
+  font-size: 71px;
+  margin-top:90%;
   margin-left:39%;
   opacity:.8;
   line-height: 62px;

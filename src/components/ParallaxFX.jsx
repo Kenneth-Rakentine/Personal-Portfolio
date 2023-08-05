@@ -75,7 +75,10 @@ function ParallaxFX() {
         speed={.4}
         horizontal={false}>
            <p className='skillsTxt2'> SOFTWARE </p>
+           </ParallaxLayer>
 
+           <ParallaxLayer
+        speed={.3}>
 <p className='skillsTxt3'> ENGINEER </p>
         </ParallaxLayer>
 

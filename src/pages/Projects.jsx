@@ -66,7 +66,7 @@ function Projects() {
         {projects.map((project) => (
           <figure className='project'  key={project.id}>
             <ul onClick={() => projectClick(project)}>
-            <a href={project.html_url} onClick={(e) => e.stopPropagation()}>
+            <a href={project.html_url} >
              <img className='projectImg' src={project.image_url} alt={project.name} /> 
             </a>
           </ul>

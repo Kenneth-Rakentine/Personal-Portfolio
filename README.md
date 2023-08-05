@@ -6,6 +6,92 @@
 
 https://perscholas.instructure.com/courses/1464/assignments/291114?module_item_id=930282
 
+## `Color Palette`
+
+![fog color palette](https://i.ibb.co/WttLZx7/fog-palette.png)
+
+[san-francisco-fog](https://www.canva.com/colors/color-palettes/san-francisco-fog/)
+
+## `WireFrame`
+
+**Component Hierarchy Tree**
+![Copmonent Tree](https://i.ibb.co/QmKBbtx/Portfolio-Hierarchy-Diagram-Wireframe.png)
+
+![Sketch Outline](https://i.ibb.co/f1zf39M/Portfolio-Page-Outline-Sketch.png)
+
+### Component Hierarchy Diagram Tool:
+
+[FIigma](https://www.figma.com/)
+
+## Goals
+
+Use FOCUS METHOD: document.querySelector(‘whatever’).focus()
+
+make thumbnails and lerger cool font-TEXT spelling out the name of each project I showcase on the projects page
+
+change color of nav links, and maybe change nav shape or just add white + light red spinning/rotating mutliples sliding and falling behind it. cascading.
+
+use carousel for github projects(?)
+
+use marquee text in places
+
+USE PARALLAX Scrolling (yarn - npm install): https://www.npmjs.com/package/react-scroll-parallax \*\*
+
+Remember to make x files splash page
+
+Make that image a gif and use it as a lower section of the main page, in its own dive with 100% width, when you scroll down, it’s the background (per SCHOLAS site style where divs are like sections of the page with diff backgrounds)
+
+Page 2 (one of the additional pages) willl be a lighter color.
+
+Make multiples of my nav component in css and make them rotate or fade into one from top and bottom sort of similar to my other project with the blue spinning rectangles
+
+Consider more closely matching the red on my cube logo to the red of my name font on the site
+
+Add noise to logo without looking unintentionally low quality
+
+Remember to reference fifa website for design ideas and overall look/feel
+
+Still need to find a good one to get inspiration from
+
+cubed KR Logo Edit: img src="https://i.ibb.co/5npDLLR/CROPPED-KR-CUBE-color-edit.png" alt="CROPPED-KR-CUBE-color-edit"
+
+have a little nav "cell"/capsule floating in the middle(upper center) of the lefthand column/side of the page which has Router links to each page
+
+### Future Roadmap/ To-Do
+
+### Screenshots
+
+**Chronological Design Progress**
+![Screenshot](https://i.ibb.co/qDn9tW8/Earlier-Site-Design.png)
+
+![Screenshot 2](https://i.ibb.co/cQ06FVc/screenshot-2.png)
+
+![Screenshot 4](https://i.ibb.co/2hgt8dD/screenshot-4.png)
+
+![Screenshot 3](https://i.ibb.co/VBDfYQZ/screenshot-3.png)
+
+### Tech Utilized
+
+-React.js
+-Axios
+-@react-spring/parallax
+-React-Router-Dom
+-Github REST Api
+
+**Image Filehosting:** [IMGBB](https://imgbb.com/)
+**Component Diagram:** [FIigma](https://www.figma.com/)
+**Logo Image Generation:**[BlueWillow](https://www.bluewillow.ai/)
+
+**Image Generation** -[Adobe Firefly](https://firefly.adobe.com/inspire/images)
+
+-[DreamStudio AI](https://dreamstudio.ai)
+
+-Adobe Photoshop 2023
+
+#### Credits
+
+**Github API** [REST Repo API](https://api.github.com/users/Kenneth-Rakentine/repos)
+
 ### `Mandatory To Pass:`
 
 ```
@@ -85,120 +171,5 @@ The font style and size are easily legible and professional looking (no comic sa
 No obvious CSS, HTML, or JS bugs
 You will want to be at this point before your final project is due, so you may still have a placeholder for at least one of the projects. That's okay! You don't need to invent a time machine! Just make sure it's as close to ready as it reasonably can be.
 
-example portfolio sites:
-http://mattfarley.ca/
-
-https://www.dejan.works/
-
-https://caferati.me/
-
-http://www.emilyridge.ie/
-
-http://ianlunn.co.uk/
-
-http://pierre.io/
-
-http://timmyomahony.com/
-
-http://www.denisechandler.com/
-
-http://benadam.me/
-
-http://www.danielfischer.com/
-
-http://sebkay.com/
-
-http://www.jonny.me/
-
-(http://www.kathrynmcclintock.com/)
-
-(http://jacekjeznach.com/)
-
 
 ```
-
-## `Color Palette`
-
-![alt text](https://i.ibb.co/rHk86Xh/Black-Bird-Color-Palette.png)
-
-(https://www.canva.com/colors/color-palettes/black-bird/)
-
-**Alternate Palette Options:**
-[bonfire-glow](https://www.canva.com/colors/color-palettes/bonfire-glow/)
-[cottage-path](https://www.canva.com/colors/color-palettes/peaceful-cottage-path/)
-[grained-memories](https://www.canva.com/colors/color-palettes/grained-memories/)
-[san-francisco-fog](https://www.canva.com/colors/color-palettes/san-francisco-fog/)
-[sliver-of-silver](https://www.canva.com/colors/color-palettes/sliver-of-silver/)
-[quill-and-carton](https://www.canva.com/colors/color-palettes/quill-and-carton/)
-[crimson-and-blues](https://www.canva.com/colors/color-palettes/crimson-and-blues/)
-[chocolate-pastries](https://www.canva.com/colors/color-palettes/chocolate-pastries/)
-[memory-box](https://www.canva.com/colors/color-palettes/memory-box/)
-
-## `WireFrame`
-
-**create wireframe either with sketches/block-diagram, pseudocode and paste screenshot here**
-
-![Sketch Outline](https://i.ibb.co/f1zf39M/Portfolio-Page-Outline-Sketch.png)
-
-### Component Hierarchy Diagram
-
-[FIigma](https://www.figma.com/)
-
-## Goals
-
-Use FOCUS METHOD: document.querySelector(‘whatever’).focus()
-
-make thumbnails and lerger cool font-TEXT spelling out the name of each project I showcase on the projects page
-
-change color of nav links, and maybe change nav shape or just add white + light red spinning/rotating mutliples sliding and falling behind it. cascading.
-
-use carousel for github projects(?)
-
-use marquee text in places
-
-USE PARALLAX Scrolling (yarn - npm install): https://www.npmjs.com/package/react-scroll-parallax \*\*
-
-Remember to make x files splash page
-
-Make that image a gif and use it as a lower section of the main page, in its own dive with 100% width, when you scroll down, it’s the background (per SCHOLAS site style where divs are like sections of the page with diff backgrounds)
-
-Page 2 (one of the additional pages) willl be a lighter color.
-
-Make multiples of my nav component in css and make them rotate or fade into one from top and bottom sort of similar to my other project with the blue spinning rectangles
-
-Consider more closely matching the red on my cube logo to the red of my name font on the site
-
-Add noise to logo without looking unintentionally low quality
-
-Remember to reference fifa website for design ideas and overall look/feel
-
-Still need to find a good one to get inspiration from
-
-cubed KR Logo Edit: img src="https://i.ibb.co/5npDLLR/CROPPED-KR-CUBE-color-edit.png" alt="CROPPED-KR-CUBE-color-edit"
-
-have a little nav "cell"/capsule floating in the middle(upper center) of the lefthand column/side of the page which has Router links to each page
-
-### Future Roadmap/ To-Do
-
-### Screenshots
-
-**Chronological Design Progress**
-![Screenshot](https://i.ibb.co/qDn9tW8/Earlier-Site-Design.png)
-
-![Screenshot 2](https://i.ibb.co/cQ06FVc/screenshot-2.png)
-
-### Tech Utilized
-
-**Image Filehosting:** [IMGBB](https://imgbb.com/)
-**Component Diagram:** [FIigma](https://www.figma.com/)
-**Logo Image Generation:**[BlueWillow](https://www.bluewillow.ai/)
-
-**Image Generation** -[Adobe Firefly](https://firefly.adobe.com/inspire/images)
-
--[DreamStudio AI](https://dreamstudio.ai)
-
--Adobe Photoshop 2023
-
-#### Credits
-
-**Github API** [REST Repo API](https://api.github.com/users/Kenneth-Rakentine/repos)

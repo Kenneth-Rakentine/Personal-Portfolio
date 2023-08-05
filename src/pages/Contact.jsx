@@ -4,7 +4,7 @@ function Contact() {
   return (
     <div className='contactContainer'>
       <h1 className='contactHeadTxt'>Contact</h1>
-      <a href='rakentine.k@gmail.com'> Email </a>
+      <a href='mailto:rakentine.k@gmail.com'> Email </a>
 
     </div>
   )

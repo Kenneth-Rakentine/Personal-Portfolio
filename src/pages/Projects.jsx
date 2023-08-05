@@ -19,7 +19,7 @@ function Projects() {
         try{
             const result = await axios.get('https://api.github.com/users/Kenneth-Rakentine/repos')
 
-            const specificRepos = ['Ghost-Hunter-Game', 'Employee-Directory-REACT','Netflix-Functions-Mockup', 'Omdb-Api', 'PerScholas-Responsive-Site', 'PerScholasReactGP']
+            const specificRepos = ['Ghost-Hunter-Game', 'Employee-Directory-REACT','Netflix-Functions-Mockup', 'Api-Call-Practice', 'PerScholas-Responsive-Site', 'PerScholasReactGP']
 
             const filteredProjects = result.data.filter((project) =>
         specificRepos.includes(project.name)
@@ -33,8 +33,8 @@ function Projects() {
             return { ...project, image_url: 'https://i.ibb.co/kmPXqPs/gh2.png' };
           case 'Netflix-Functions-Mockup':
             return { ...project, image_url: 'https://i.ibb.co/SPRCp8R/gh3.png' };
-          case 'Omdb-Api':
-            return { ...project, image_url: 'https://i.ibb.co/Xz80Kr0/gh4.png' };
+          case 'Api-Call-Practice':
+            return { ...project, image_url: 'https://i.ibb.co/xDnFqkr/Api-Call-Practice.png' };
           case 'PerScholas-Responsive-Site':
             return { ...project, image_url: 'https://i.ibb.co/qxYC1NM/gh5.png' };
           case 'PerScholasReactGP':

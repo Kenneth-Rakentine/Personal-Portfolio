@@ -16,7 +16,9 @@ function Nav() {
                     <Link to="/resume" style={{ textDecoration: 'none' }}>
                     <p className='indItem'>Resume</p>
                     </Link>
+                    <Link to="/contact"style={{textDecoration:'none'}}>
                     <p className='indItem'>Contact</p>
+                    </Link>
                     {/* <div className='navMenuCopy' ></div>
                     <div className='navMenuCopy2' ></div>
                     <div className='navMenuCopy3' ></div> */}

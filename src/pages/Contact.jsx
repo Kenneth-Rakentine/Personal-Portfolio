@@ -2,7 +2,11 @@ import React from 'react'
 
 function Contact() {
   return (
-    <div>Contact</div>
+    <div className='contactContainer'>
+      <h1 className='contactHeadTxt'>Contact</h1>
+      <a href='rakentine.k@gmail.com'> Email </a>
+
+    </div>
   )
 }
 

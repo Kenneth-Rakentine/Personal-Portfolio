@@ -12,7 +12,9 @@ function Nav() {
                     {/* <Link to="/links" style={{textDecoration: 'none'}}>
                     <p className='indItem'>Links</p>
                     </Link> */}
+                    <Link to="/about" style={{textDecoration:'none'}}>
                     <p className='indItem'>About</p>
+                    </Link>
                     <Link to="/resume" style={{ textDecoration: 'none' }}>
                     <p className='indItem'>Resume</p>
                     </Link>

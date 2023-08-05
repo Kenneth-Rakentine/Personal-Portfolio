@@ -9,6 +9,7 @@ import BoxLogo from './components/BoxLogo';
 import Projects from './pages/Projects';
 import Resume from './pages/Resume';
 import Contact from './pages/Contact';
+import About from './pages/About';
 import ParallaxFX from './components/ParallaxFX';
 import { Parallax } from 'react-scroll-parallax';
 import Links from './pages/Links';
@@ -37,6 +38,7 @@ function App() {
           <Route path="/resume" element={<Resume/>}/>
           <Route path="/links" element={<Links/>}/>
           <Route path="/contact" element={<Contact/>}/> 
+          <Route path="/about" element={<About/>}/>
          </Routes>
       </div>
       <ParallaxFX/>

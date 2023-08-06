@@ -21,7 +21,7 @@ To design a personal portfolio showcasing my programming & design skills which i
 **Component Hierarchy Tree**
 ![Copmonent Tree](https://i.ibb.co/QmKBbtx/Portfolio-Hierarchy-Diagram-Wireframe.png)
 
-![Sketch Outline](https://i.ibb.co/f1zf39M/Portfolio-Page-Outline-Sketch.png)
+![Sketch Outline](https://www.simpleimageresizer.com/_uploads/photos/c80bf406/Portfolio_Page_Outline_Sketch_50.png)
 
 ## `Goals`
 
@@ -38,21 +38,22 @@ To design a personal portfolio showcasing my programming & design skills which i
 
 ## Future Roadmap:
 
-- [] More tasteful/fashinable portfolio web design look
-- [] Drag-and-drop section in Contacts page
-- [] Look into localstorage so you can save data to the user's browser
-- [] Splash Screen w/animated gif effect on initial page load
-- [] Remove excess space between parallax section & bottom of page/footer text+logo
-- [] More interactivity
-- [] Less empy space in upper portion of page
-- [] Redesign entire aesthetic/palette/layout/flow
-- [] Better implementation of parallax effect
-- [] Some more collage cut outs for scroll effect
-- [] Focus() to bottom of page on header-bar click
-  -[] Use k1-k7 dreammaker ai cube logos on LINKS page to flip through each one, each with a slight rotate3d, very quickly to simulate a rotating effect with contsantly changing image
-- [] Parallax scroll makes Cube Logo Fall Apart/Current Name Logo (downward and out)
-- [] Flash different logo images per frame (try different angles of the existing logo, but also some of the other logos) [content: url(pdfIcon.png)]
-- [] On About page, make Text rain down from the sky and fall into egible text
+- [ ] More tasteful/fashinable portfolio web design look
+- [ ] Re-introduce primary scrollbar
+- [ ] Drag-and-drop section in Contacts page
+- [ ] Look into localstorage so you can save data to the user's browser
+- [ ] Splash Screen w/animated gif effect on initial page load
+- [ ] Remove excess space between parallax section & bottom of page/footer text+logo
+- [ ] More interactivity
+- [ ] Less empy space in upper portion of page
+- [ ] Redesign entire aesthetic/palette/layout/flow
+- [ ] Better implementation of parallax effect
+- [ ] Some more collage cut outs for scroll effect
+- [x] Focus() to bottom of page on header-bar click(accomplished via .scrollTo rather than focus)
+- [ ] Use k1-k7 dreammaker ai cube logos on LINKS page to flip through each one, each with a slight rotate3d, very quickly to simulate a rotating effect with contsantly changing image
+- [ ] Parallax scroll makes Cube Logo Fall Apart/Current Name Logo (downward and out)
+- [ ] Flash different logo images per frame (try different angles of the existing logo, but also some of the other logos) [content: url(pdfIcon.png)]
+- [ ] On About page, make Text rain down from the sky and fall into egible text
 
 ## `Screenshots
 
@@ -82,20 +83,20 @@ Early Versions:
 - Github REST Api
 - Adobe Photoshop 2023
 
+```
+
 - **Image Filehosting:** [IMGBB](https://imgbb.com/)
 - **Component Diagram:** [FIigma](https://www.figma.com/)
 - **Logo Image Generation:**[BlueWillow](https://www.bluewillow.ai/)
 - **Image Generation:** -[Adobe Firefly](https://firefly.adobe.com/inspire/images), [DreamStudio AI](https://dreamstudio.ai)
 
-```
-
 ### Credits
 
 - **Component Hierarchy Diagram Tool:**
   [FIigma](https://www.figma.com/)
-- (https://firefly.adobe.com)
-- (https://dreamstudio.ai)
-  **Github API** [REST Repo API](https://api.github.com/users/Kenneth-Rakentine/repos)
+- **Adobe Firefly:** https://firefly.adobe.com
+- **DreamStudio:** https://dreamstudio.ai
+- **Github API** [REST Repo API]https://api.github.com/users/Kenneth-Rakentine/repos
 
 ## `Instructions`
 

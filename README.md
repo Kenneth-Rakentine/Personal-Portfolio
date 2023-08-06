@@ -111,7 +111,7 @@ Frequent Commits to github
 A README.mdfile with explanations of the technologies used, the approach taken, a link to your live site, installation instructions, unsolved problems, etc.
 Use Fetch and UseEffect to make a request to an external data source like OMDBapi and insert some of the data retrieved into your State and display it on the screen
 -Use API data: Please be extremely thorough when finding an API you'd like to use for your project. In other words, please ensure you have properly vetted your API, by taking the time to read it's documentation and even "hitting a few endpoints".
--**RESPONSIVE**
+-RESPONSIVE
 
 Showcase your personal and professional programming projects
 Link to each project's Github repository, so people can see your code and usage of version control

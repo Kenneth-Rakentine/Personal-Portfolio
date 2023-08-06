@@ -801,12 +801,21 @@ border-radius:5px;
   0%{
     transform:translateY(-70px);
     opacity:.2;
+    color:#be8d8e;
   }
   10%{
-    opacity:.3;
+    opacity:.4;
   }
-  88%{
+  67%{
+    
+    opacity:1;
+  }
+  85%{
+    
+  }
+  98%{
     opacity:.8;
+    color:rgb(59, 26, 63);
   }
   100%{
     transform:translateY(240px);
@@ -818,11 +827,16 @@ border-radius:5px;
   0%{
     transform:translateY(-150px);
     opacity:.2;
+    color:rgb(153, 123, 167);
   }
   10%{
-    opacity:.3;
+    opacity:.4;
   }
-  88%{
+  67%{
+    color:rgb(59, 26, 63);
+    opacity:1;
+  }
+  90%{
     opacity:.8;
   }
   100%{
@@ -835,11 +849,16 @@ border-radius:5px;
   0%{
     transform:translateY(-250px);
     opacity:.2;
+    color:rgb(167, 123, 141);
   }
   10%{
-    opacity:.3;
+    opacity:.4;
   }
-  88%{
+  67%{
+    color:rgb(59, 26, 63);
+    opacity:1;
+  }
+  90%{
     opacity:.8;
   }
   100%{
@@ -869,11 +888,16 @@ border-radius:5px;
   0%{
     transform:translateY(-442px);
     opacity:.2;
+    color:rgb(167, 123, 141);
   }
   10%{
-    opacity:.3;
+    opacity:.4;
   }
-  88%{
+  67%{
+    color:rgb(59, 26, 63);
+    opacity:1;
+  }
+  90%{
     opacity:.8;
   }
   100%{
@@ -902,12 +926,16 @@ border-radius:5px;
 @keyframes fall7{
   0%{
     transform:translateY(-596px);
-    opacity:.2;
+    color:rgb(167, 123, 141);
   }
   10%{
     opacity:.4;
   }
-  88%{
+  67%{
+    color:rgb(59, 26, 63);
+    opacity:1;
+  }
+  90%{
     opacity:.8;
   }
   100%{
@@ -920,6 +948,7 @@ border-radius:5px;
   0%{
     transform:translateY(-690px);
     opacity:.2;
+    color:#be8d8e;
   }
   10%{
     opacity:.4;
@@ -937,11 +966,16 @@ border-radius:5px;
   0%{
     transform:translateY(-779px);
     opacity:.2;
+    color:rgb(167, 123, 141);
   }
   10%{
     opacity:.4;
   }
-  88%{
+  67%{
+    color:rgb(59, 26, 63);
+    opacity:1;
+  }
+  90%{
     opacity:.8;
   }
   100%{
@@ -954,16 +988,67 @@ border-radius:5px;
   0%{
     transform:translateY(-849px);
     opacity:.2;
+    color:rgb(167, 123, 141);
   }
   10%{
     opacity:.4;
   }
-  88%{
+  67%{
+    color:rgb(59, 26, 63);
+    opacity:1;
+  }
+  90%{
     opacity:.8;
   }
   100%{
     transform:translateY(-525px);
     opacity:0;
+  }
+}
+
+@keyframes fall11{
+  0%{
+    transform:translateY(-959px);
+    opacity:.2;
+    color:rgb(167, 123, 141);
+  }
+  10%{
+    opacity:.4;
+  }
+  67%{
+    color:rgb(59, 26, 63);
+    opacity:1;
+  }
+  90%{
+    opacity:.8;
+  }
+  100%{
+    transform:translateY(-525px);
+    opacity:0;
+    
+  }
+}
+
+@keyframes fall12{
+  0%{
+    transform:translateY(-1059px);
+    opacity:.2;
+    color:rgb(167, 123, 141);
+  }
+  10%{
+    opacity:.4;
+  }
+  67%{
+    
+  }
+  88%{
+    opacity:.8;
+    color:rgb(59, 26, 63);
+  }
+  100%{
+    transform:translateY(-700px);
+    opacity:0;
+    
   }
 }
 
@@ -1024,16 +1109,16 @@ border-radius:5px;
   animation: fall10 3.3s linear infinite;
 }
 .fall11{
-  margin-left:22%;
+  margin-left:-9%;
   font-size:40px;
   color:rgb(59, 26, 63);
-  animation: fall11 1.6s linear infinite;
+  animation: fall11 2.6s linear infinite;
 }
 .fall12{
-    margin-left:461%;
+    margin-left:6%;
   font-size:40px;
   color:rgb(59, 26, 63);
-  animation: fall12 1.6s linear infinite;
+  animation: fall12 4.1s linear infinite;
 }
 
 /* ABOUT FALLING TEXT __________ */

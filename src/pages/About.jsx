@@ -13,7 +13,7 @@ function About() {
       <p className='fall8'>k</p>
       <p className='fall9'>t</p>
       <p className='fall10'>E</p>
-      <p className='fall11'>t</p>
+      <p className='fall11'>c</p>
       <p className='fall12'>o</p>
      {/* 12 ^ */}
       <h1 className='aboutHeadTxt'>About</h1>

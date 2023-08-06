@@ -10,7 +10,7 @@ function About() {
       <p className='fall5'>o</p>
       <p className='fall6'>S</p>
       <p className='fall7'>A</p>
-      <p className='fall8'>P</p>
+      <p className='fall8'>k</p>
       <p className='fall9'>t</p>
       <p className='fall10'>E</p>
       <p className='fall11'>t</p>

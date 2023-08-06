@@ -916,6 +916,56 @@ border-radius:5px;
   }
 }
 
+@keyframes fall8{
+  0%{
+    transform:translateY(-690px);
+    opacity:.2;
+  }
+  10%{
+    opacity:.4;
+  }
+  88%{
+    opacity:.8;
+  }
+  100%{
+    transform:translateY(-270px);
+    opacity:0;
+  }
+}
+
+@keyframes fall9{
+  0%{
+    transform:translateY(-779px);
+    opacity:.2;
+  }
+  10%{
+    opacity:.4;
+  }
+  88%{
+    opacity:.8;
+  }
+  100%{
+    transform:translateY(-260px);
+    opacity:0;
+  }
+}
+
+@keyframes fall10{
+  0%{
+    transform:translateY(-849px);
+    opacity:.2;
+  }
+  10%{
+    opacity:.4;
+  }
+  88%{
+    opacity:.8;
+  }
+  100%{
+    transform:translateY(-525px);
+    opacity:0;
+  }
+}
 
 
 
@@ -956,22 +1006,22 @@ border-radius:5px;
   animation: fall7 3.6s linear infinite;
 }
 .fall8{
-  margin-left:51%;
+  margin-left:42%;
   font-size:40px;
   color:rgb(59, 26, 63);
-  animation: fall8 1.6s linear infinite;
+  animation: fall8 1.9s linear infinite;
 }
 .fall9{
-  margin-left:71%;
+  margin-left:79%;
   font-size:40px;
   color:rgb(59, 26, 63);
   animation: fall9 1.6s linear infinite;
 }
 .fall10{
-  margin-left:81%;
+  margin-left:25.4%;
   font-size:40px;
   color:rgb(59, 26, 63);
-  animation: fall10 1.6s linear infinite;
+  animation: fall10 3.3s linear infinite;
 }
 .fall11{
   margin-left:22%;

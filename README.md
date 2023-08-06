@@ -70,6 +70,8 @@ have a little nav "cell"/capsule floating in the middle(upper center) of the lef
 
 ![Screenshot 3](https://i.ibb.co/VBDfYQZ/screenshot-3.png)
 
+![Torn Paper Gradient Effect PS](https://i.ibb.co/ysY4zw8/Torn-Paper-Three.png)
+
 ![Screenshot Logo](https://i.ibb.co/7gd2CTs/Cube-TWO-cut-COLOR-CORRECTED3.png)
 
 ### Tech Utilized

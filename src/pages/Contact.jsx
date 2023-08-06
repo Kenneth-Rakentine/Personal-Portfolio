@@ -16,6 +16,7 @@ function Contact() {
     <a href='https://github.com/Kenneth-Rakentine' className='githubTxt'>Work</a>
     </div>
     </div>
+    <img className='webDevTag' src='https://i.ibb.co/xmwWYpp/web-dev-tag.png'></img>
   </div>
   )
 }

@@ -1382,6 +1382,30 @@ margin-bottom:5px;
    /* ------MEDIA-Q Just BELOW Max Screen-Size */
    @media(max-width: 1565px) {
 
+
+    .nameImg{
+      margin-top:-120%;
+      width:65%;
+      height:600%;
+      margin-bottom:1%;
+      margin-right:9%;
+      background-image: none;
+      background-size: contain 200px 150px;
+      background-repeat:no no-repeat;
+      animation: sphereMotion 3.3s ease-in-out infinite;
+      }
+      
+      .nameImg:hover{
+        margin-top:-180%;
+        width:65%;
+        /* height:50%; */
+        margin-bottom:1%;
+        margin-right:9%;
+        opacity: .7;
+        cursor:pointer;
+        }
+
+        
     .nameTxt {
       display: flex;
       justify-content: center;
@@ -1401,7 +1425,7 @@ margin-bottom:5px;
    }
 
    @media(max-width: 1565px){
-    nameTxt {
+    .nameTxt {
       display: flex;
       justify-content: center;
       width:60%;

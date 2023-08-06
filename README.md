@@ -39,6 +39,7 @@ To design a personal portfolio showcasing my programming & design skills which i
 ## Future Roadmap:
 
 - [ ] More tasteful, sleek, minimal portfolio web design look
+- [ ] Contact form on Contact Page
 - [ ] Re-introduce primary scrollbar
 - [ ] Drag-and-drop section in Contacts page
 - [ ] Look into localstorage so you can save data to the user's browser

@@ -1,6 +1,6 @@
 body {
   /* background-color: #140005; */
-  background: #140005 url(https://grainy-gradients.vercel.app/noise.svg);
+  background: #000000 url(https://grainy-gradients.vercel.app/noise.svg);
   font-family: 'Rubik', sans-serif;
   /* font-family: 'Orbitron', sans-serif; */
   /* font-family: 'Bebas Neue', sans-serif; */
@@ -32,6 +32,7 @@ width:1300px;
   background-color: #a09a9a7c;
   opacity:.6;
   height:32px;
+  margin-bottom:-6px;
 }
 
 .headBarContainer:hover{
@@ -173,6 +174,7 @@ animation-delay: 0ms;
   /* position: relative; */
   width:50%;
   /* margin-top:-300px; */
+  
 }
 
 .nameImgBkg{
@@ -212,11 +214,14 @@ animation-delay: 0ms;
 
 
 .nameImg{
-margin-top:-160%;
+margin-top:-120%;
 width:58%;
-/* height:50%; */
-margin-bottom:3%;
+height:670%;
+margin-bottom:1%;
 margin-right:9%;
+background-image: url('https://i.ibb.co/ysY4zw8/Torn-Paper-Three.png');
+background-size: contain 200px 150px;
+background-repeat:no no-repeat;
 animation: sphereMotion 3.3s ease-in-out infinite;
 }
 
@@ -246,10 +251,10 @@ animation: sphereMotion 3.3s ease-in-out infinite;
 }
 
 .nameImg:hover{
-  margin-top:-160%;
+  margin-top:-180%;
   width:58%;
   /* height:50%; */
-  margin-bottom:3%;
+  margin-bottom:1%;
   margin-right:9%;
   opacity: .7;
   cursor:pointer;
@@ -1030,7 +1035,13 @@ margin-bottom:5px;
     background: linear-gradient(90deg, rgba(191, 185, 203, 1) 0%, rgba(193, 105, 107, 0.75) 100%);
    } */
 
+   .tornContainer{
+    z-index:-1;
+   }
 
+   .paperImg{
+    z-index:-1;
+   }
 
 
    /* ------MEDIA-Q Just BELOW Max Screen-Size */

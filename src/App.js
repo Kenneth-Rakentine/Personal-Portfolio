@@ -16,6 +16,7 @@ import Links from './pages/Links';
 import HeadBar from './components/HeadBar';
 import Footer from './components/Footer';
 import LowerGradient from './components/LowerGradient';
+import Torn from './components/Torn';
 
 function App() {
   useEffect(()=>{
@@ -32,11 +33,14 @@ function playAudio() {
     <div className="App">
       <div className='masterContainer'>
         <HeadBar/>
+        {/* <Torn/> */}
         <BoxLogo/>
+        
         <Links/>
       
         <Nav />
         <Name />
+        
         {/* <Logo/> */}
         
        

@@ -6,6 +6,10 @@
 
 https://perscholas.instructure.com/courses/1464/assignments/291114?module_item_id=930282
 
+## `My Approach`
+
+To design a personal portfolio showcasing my programming & design skills which includes a few of my recent projects from my Software Engineering Course for Per Scholas
+
 ## `Color Palette`
 
 ![fog color palette](https://i.ibb.co/WttLZx7/fog-palette.png)
@@ -19,52 +23,46 @@ https://perscholas.instructure.com/courses/1464/assignments/291114?module_item_i
 
 ![Sketch Outline](https://i.ibb.co/f1zf39M/Portfolio-Page-Outline-Sketch.png)
 
-### Component Hierarchy Diagram Tool:
+## `Goals`
 
-[FIigma](https://www.figma.com/)
+- host to github pages (github.io)
+- Use Fetch and UseEffect to make a request to an external data source and insert some of the data retrieved into your State and display it on the screen
+- before:/After: css techniques
+- clip path
+- nav menu different shape with background animations/rotate/translate3D() [Make multiples of my nav component in css and make them rotate or fade into one from top and bottom sort of similar to my other project with the blue spinning rectangles]
+- parallax scrolling section/not entire page
+- add Linnkedin API to Retrieve profile data (my profile in About me/Links Page) [may be 'paid access' only]
+- use carousel for github projects(?)
+- use marquee text in places
+- Page 2 (one of the additional pages) willl be a lighter color.
 
-## Goals
+## Future Roadmap:
 
-Use FOCUS METHOD: document.querySelector(‘whatever’).focus()
+- [] More tasteful/fashinable portfolio web design look
+- [] Drag-and-drop section in Contacts page
+- [] Look into localstorage so you can save data to the user's browser
+- [] Splash Screen w/animated gif effect on initial page load
+- [] Remove excess space between parallax section & bottom of page/footer text+logo
+- [] More interactivity
+- [] Less empy space in upper portion of page
+- [] Redesign entire aesthetic/palette/layout/flow
+- [] Better implementation of parallax effect
+- [] Some more collage cut outs for scroll effect
+- [] Focus() to bottom of page on header-bar click
+  -[] Use k1-k7 dreammaker ai cube logos on LINKS page to flip through each one, each with a slight rotate3d, very quickly to simulate a rotating effect with contsantly changing image
+- [] Parallax scroll makes Cube Logo Fall Apart/Current Name Logo (downward and out)
+- [] Flash different logo images per frame (try different angles of the existing logo, but also some of the other logos) [content: url(pdfIcon.png)]
+- [] On About page, make Text rain down from the sky and fall into egible text
 
-make thumbnails and lerger cool font-TEXT spelling out the name of each project I showcase on the projects page
-
-change color of nav links, and maybe change nav shape or just add white + light red spinning/rotating mutliples sliding and falling behind it. cascading.
-
-use carousel for github projects(?)
-
-use marquee text in places
-
-USE PARALLAX Scrolling (yarn - npm install): https://www.npmjs.com/package/react-scroll-parallax \*\*
-
-Remember to make x files splash page
-
-Make that image a gif and use it as a lower section of the main page, in its own dive with 100% width, when you scroll down, it’s the background (per SCHOLAS site style where divs are like sections of the page with diff backgrounds)
-
-Page 2 (one of the additional pages) willl be a lighter color.
-
-Make multiples of my nav component in css and make them rotate or fade into one from top and bottom sort of similar to my other project with the blue spinning rectangles
-
-Consider more closely matching the red on my cube logo to the red of my name font on the site
-
-Add noise to logo without looking unintentionally low quality
-
-Remember to reference fifa website for design ideas and overall look/feel
-
-Still need to find a good one to get inspiration from
-
-cubed KR Logo Edit: img src="https://i.ibb.co/5npDLLR/CROPPED-KR-CUBE-color-edit.png" alt="CROPPED-KR-CUBE-color-edit"
-
-have a little nav "cell"/capsule floating in the middle(upper center) of the lefthand column/side of the page which has Router links to each page
-
-### Future Roadmap/ To-Do
-
-### Screenshots
+## `Screenshots
 
 **Chronological Design Progress**
+Early Versions:
 ![Screenshot](https://i.ibb.co/qDn9tW8/Earlier-Site-Design.png)
 
 ![Screenshot 2](https://i.ibb.co/cQ06FVc/screenshot-2.png)
+
+![Screenshot 5](https://i.ibb.co/Xx1xtzG/screenshot-5.png)
 
 ![Screenshot 4](https://i.ibb.co/2hgt8dD/screenshot-4.png)
 
@@ -74,29 +72,34 @@ have a little nav "cell"/capsule floating in the middle(upper center) of the lef
 
 ![Screenshot Logo](https://i.ibb.co/7gd2CTs/Cube-TWO-cut-COLOR-CORRECTED3.png)
 
-### Tech Utilized
+## `Tech Utilized`
 
--React.js
--Axios
--@react-spring/parallax
--React-Router-Dom
--Github REST Api
+```
+- React.js
+- Axios
+- @react-spring/parallax
+- React-Router-Dom
+- Github REST Api
+- Adobe Photoshop 2023
 
-**Image Filehosting:** [IMGBB](https://imgbb.com/)
-**Component Diagram:** [FIigma](https://www.figma.com/)
-**Logo Image Generation:**[BlueWillow](https://www.bluewillow.ai/)
+- **Image Filehosting:** [IMGBB](https://imgbb.com/)
+- **Component Diagram:** [FIigma](https://www.figma.com/)
+- **Logo Image Generation:**[BlueWillow](https://www.bluewillow.ai/)
+- **Image Generation:** -[Adobe Firefly](https://firefly.adobe.com/inspire/images), [DreamStudio AI](https://dreamstudio.ai)
 
-**Image Generation** -[Adobe Firefly](https://firefly.adobe.com/inspire/images)
+```
 
--[DreamStudio AI](https://dreamstudio.ai)
+### Credits
 
--Adobe Photoshop 2023
+- **Component Hierarchy Diagram Tool:**
+  [FIigma](https://www.figma.com/)
+- (https://firefly.adobe.com)
+- (https://dreamstudio.ai)
+  **Github API** [REST Repo API](https://api.github.com/users/Kenneth-Rakentine/repos)
 
-#### Credits
+## `Instructions`
 
-**Github API** [REST Repo API](https://api.github.com/users/Kenneth-Rakentine/repos)
-
-### `Mandatory To Pass:`
+### Mandatory To Pass:
 
 ```
 **Minimum Viable Product**

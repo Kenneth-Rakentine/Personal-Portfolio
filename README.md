@@ -38,7 +38,7 @@ To design a personal portfolio showcasing my programming & design skills which i
 
 ## Future Roadmap:
 
-- [ ] More tasteful/fashinable portfolio web design look
+- [ ] More tasteful, sleek, minimal portfolio web design look
 - [ ] Re-introduce primary scrollbar
 - [ ] Drag-and-drop section in Contacts page
 - [ ] Look into localstorage so you can save data to the user's browser
@@ -87,8 +87,8 @@ Early Versions:
 
 - **Image Filehosting:** [IMGBB](https://imgbb.com/)
 - **Component Diagram:** [FIigma](https://www.figma.com/)
-- **Logo Image Generation:**[BlueWillow](https://www.bluewillow.ai/)
-- **Image Generation:** -[Adobe Firefly](https://firefly.adobe.com/inspire/images), [DreamStudio AI](https://dreamstudio.ai)
+- **Logo Image Generation:** [BlueWillow](https://www.bluewillow.ai/)
+- **Image Generation:** [Adobe Firefly](https://firefly.adobe.com/inspire/images), [DreamStudio AI](https://dreamstudio.ai)
 
 ### Credits
 
@@ -96,7 +96,7 @@ Early Versions:
   [FIigma](https://www.figma.com/)
 - **Adobe Firefly:** https://firefly.adobe.com
 - **DreamStudio:** https://dreamstudio.ai
-- **Github API** [REST Repo API]https://api.github.com/users/Kenneth-Rakentine/repos
+- **Github API** (REST Repo API): https://api.github.com/users/Kenneth-Rakentine/repos
 
 ## `Instructions`
 

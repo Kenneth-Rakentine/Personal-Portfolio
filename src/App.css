@@ -865,6 +865,58 @@ border-radius:5px;
   }
 }
 
+@keyframes fall5{
+  0%{
+    transform:translateY(-442px);
+    opacity:.2;
+  }
+  10%{
+    opacity:.3;
+  }
+  88%{
+    opacity:.8;
+  }
+  100%{
+    transform:translateY(154px);
+    opacity:0;
+  }
+}
+
+@keyframes fall6{
+  0%{
+    transform:translateY(-516px);
+    opacity:.2;
+  }
+  10%{
+    opacity:.3;
+  }
+  88%{
+    opacity:.8;
+  }
+  100%{
+    transform:translateY(154px);
+    opacity:0;
+  }
+}
+
+@keyframes fall7{
+  0%{
+    transform:translateY(-596px);
+    opacity:.2;
+  }
+  10%{
+    opacity:.4;
+  }
+  88%{
+    opacity:.8;
+  }
+  100%{
+    transform:translateY(-90px);
+    opacity:0;
+  }
+}
+
+
 
 
 .fall2{
@@ -886,22 +938,22 @@ border-radius:5px;
   animation: fall4 2s linear infinite;
 }
 .fall5{
-  margin-left:-57%;
+  margin-left:18%;
   font-size:40px;
   color:rgb(59, 26, 63);
   animation: fall5 1.6s linear infinite;
 }
 .fall6{
-  margin-left:11%;
+  margin-left:1%;
   font-size:40px;
   color:rgb(81, 28, 87);
-  animation: fall6 1.6s linear infinite;
+  animation: fall6 2.6s linear infinite;
 }
 .fall7{
-  margin-left:31%;
+  margin-left:55.5%;
   font-size:40px;
   color:rgb(59, 26, 63);
-  animation: fall7 1.6s linear infinite;
+  animation: fall7 3.6s linear infinite;
 }
 .fall8{
   margin-left:51%;

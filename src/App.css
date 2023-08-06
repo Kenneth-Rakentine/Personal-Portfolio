@@ -185,7 +185,7 @@ animation-delay: 0ms;
   opacity:.9;
   /* margin-top:-200px; */
   z-index:1;
-  margin-bottom:4%;
+  margin-bottom:6%;
   animation: gradientScroll 6.5s linear infinite;
 }
 
@@ -799,7 +799,7 @@ border-radius:5px;
 
 @keyframes fall1{
   0%{
-    transform:translateY(-70px);
+    transform:translateY(-120px);
     opacity:.2;
     color:#be8d8e;
   }
@@ -825,7 +825,7 @@ border-radius:5px;
 
 @keyframes fall2{
   0%{
-    transform:translateY(-150px);
+    transform:translateY(-200px);
     opacity:.2;
     color:rgb(153, 123, 167);
   }
@@ -847,7 +847,7 @@ border-radius:5px;
 
 @keyframes fall3{
   0%{
-    transform:translateY(-250px);
+    transform:translateY(-300px);
     opacity:.2;
     color:rgb(167, 123, 141);
   }
@@ -869,7 +869,7 @@ border-radius:5px;
 
 @keyframes fall4{
   0%{
-    transform:translateY(-330px);
+    transform:translateY(-380px);
     opacity:.2;
   }
   10%{
@@ -886,7 +886,7 @@ border-radius:5px;
 
 @keyframes fall5{
   0%{
-    transform:translateY(-442px);
+    transform:translateY(-492px);
     opacity:.2;
     color:rgb(167, 123, 141);
   }
@@ -908,7 +908,7 @@ border-radius:5px;
 
 @keyframes fall6{
   0%{
-    transform:translateY(-516px);
+    transform:translateY(-546px);
     opacity:.2;
   }
   10%{
@@ -925,7 +925,7 @@ border-radius:5px;
 
 @keyframes fall7{
   0%{
-    transform:translateY(-596px);
+    transform:translateY(-629px);
     color:rgb(167, 123, 141);
   }
   10%{
@@ -946,7 +946,7 @@ border-radius:5px;
 
 @keyframes fall8{
   0%{
-    transform:translateY(-690px);
+    transform:translateY(-730px);
     opacity:.2;
     color:#be8d8e;
   }
@@ -964,7 +964,7 @@ border-radius:5px;
 
 @keyframes fall9{
   0%{
-    transform:translateY(-779px);
+    transform:translateY(-819px);
     opacity:.2;
     color:rgb(167, 123, 141);
   }
@@ -986,7 +986,7 @@ border-radius:5px;
 
 @keyframes fall10{
   0%{
-    transform:translateY(-849px);
+    transform:translateY(-889px);
     opacity:.2;
     color:rgb(167, 123, 141);
   }
@@ -1008,7 +1008,7 @@ border-radius:5px;
 
 @keyframes fall11{
   0%{
-    transform:translateY(-959px);
+    transform:translateY(-979px);
     opacity:.2;
     color:rgb(167, 123, 141);
   }
@@ -1031,7 +1031,7 @@ border-radius:5px;
 
 @keyframes fall12{
   0%{
-    transform:translateY(-1059px);
+    transform:translateY(-1065px);
     opacity:.2;
     color:rgb(167, 123, 141);
   }
@@ -1385,7 +1385,7 @@ margin-bottom:5px;
 
     .nameImg{
       margin-top:-120%;
-      width:65%;
+      width:50%;
       height:600%;
       margin-bottom:1%;
       margin-right:9%;

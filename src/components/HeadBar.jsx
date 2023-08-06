@@ -9,7 +9,7 @@ function HeadBar() {
   }
     
   return (
-    <div className='headBarContainer' onClick={clicker}>
+    <div className='headBarContainer sticky' onClick={clicker}>
         
      </div>
   )

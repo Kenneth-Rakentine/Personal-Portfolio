@@ -10,7 +10,6 @@ function HeadBar() {
     
   return (
     <div className='headBarContainer' onClick={clicker}>
-        {/* <button id='focusButton'> BOTTOM </button> */}
         
      </div>
   )

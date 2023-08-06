@@ -33,17 +33,10 @@ function playAudio() {
     <div className="App">
       <div className='masterContainer'>
         <HeadBar/>
-        {/* <Torn/> */}
         <BoxLogo/>
-        
         <Links/>
-      
         <Nav />
         <Name />
-        
-        {/* <Logo/> */}
-        
-       
         <Routes>
           <Route path="/" element={<Logo />} />
           <Route path="/project" element={<Projects/>}/>
@@ -54,11 +47,7 @@ function playAudio() {
          </Routes>
       </div>
       <ParallaxFX/>
-      {/* <LowerGradient/> */}
       <Footer/>
-      {/* <img classname='hurricaneGif'  src='https://i.gifer.com/FpO7.gif'/> */}
-      {/* <img className='collageImg' src='https://i.ibb.co/55gLGzf/37Wseut.jpg'/> */}
-      
     </div>
   );
 }

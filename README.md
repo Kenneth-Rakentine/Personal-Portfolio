@@ -53,7 +53,7 @@ To design a personal portfolio showcasing my programming & design skills which i
 - [ ] Use k1-k7 dreammaker ai cube logos on LINKS page to flip through each one, each with a slight rotate3d, very quickly to simulate a rotating effect with contsantly changing image
 - [ ] Parallax scroll makes Cube Logo Fall Apart/Current Name Logo (downward and out)
 - [ ] Flash different logo images per frame (try different angles of the existing logo, but also some of the other logos) [content: url(pdfIcon.png)]
-- [ ] On About page, make Text rain down from the sky and fall into egible text
+- [x] On About page, make Text rain down from the sky and fall into egible text
 
 ## `Screenshots
 

@@ -1,6 +1,6 @@
 import './App.css';
 import axios from 'axios';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { Route, Routes } from 'react-router-dom'
 import Nav from './components/Nav';
 import Name from './components/Name';
@@ -18,7 +18,15 @@ import Footer from './components/Footer';
 import LowerGradient from './components/LowerGradient';
 
 function App() {
+  useEffect(()=>{
+    playAudio()
+  }, [])
 
+function playAudio() {
+  let audio = new Audio(`${process.env.PUBLIC_URL}/audio/inhaler clip 1.mp3`);
+  audio.volume = 0.2
+  audio.play()
+}
 
   return (
     <div className="App">

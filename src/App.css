@@ -788,21 +788,167 @@ border-radius:5px;
   100%   { transform: translate(0, -0px); }   
 } */
 
+/* ABOUT FALLING TEXT __________ */
 
+.fall1{
+  margin-left:-74%;
+  font-size:40px;
+  color:rgb(59, 26, 63);
+  animation: fall1 1.6s linear infinite;
+}
+
+@keyframes fall1{
+  0%{
+    transform:translateY(-70px);
+    opacity:.2;
+  }
+  10%{
+    opacity:.3;
+  }
+  88%{
+    opacity:.8;
+  }
+  100%{
+    transform:translateY(240px);
+    opacity:0;
+  }
+}
+
+@keyframes fall2{
+  0%{
+    transform:translateY(-150px);
+    opacity:.2;
+  }
+  10%{
+    opacity:.3;
+  }
+  88%{
+    opacity:.8;
+  }
+  100%{
+    transform:translateY(180px);
+    opacity:0;
+  }
+}
+
+@keyframes fall3{
+  0%{
+    transform:translateY(-250px);
+    opacity:.2;
+  }
+  10%{
+    opacity:.3;
+  }
+  88%{
+    opacity:.8;
+  }
+  100%{
+    transform:translateY(230px);
+    opacity:0;
+  }
+}
+
+@keyframes fall4{
+  0%{
+    transform:translateY(-330px);
+    opacity:.2;
+  }
+  10%{
+    opacity:.3;
+  }
+  88%{
+    opacity:.8;
+  }
+  100%{
+    transform:translateY(230px);
+    opacity:0;
+  }
+}
+
+
+
+.fall2{
+  margin-left:-52%;
+  font-size:40px;
+  color:rgb(59, 26, 63);
+  animation: fall2 1.9s linear infinite;
+}
+.fall3{
+  margin-left:-42%;
+  font-size:40px;
+  color:rgb(59, 26, 63);
+  animation: fall3 1.6s linear infinite;
+}
+.fall4{
+  margin-left:-25%;
+  font-size:40px;
+  color:rgb(59, 26, 63);
+  animation: fall4 2s linear infinite;
+}
+.fall5{
+  margin-left:-57%;
+  font-size:40px;
+  color:rgb(59, 26, 63);
+  animation: fall5 1.6s linear infinite;
+}
+.fall6{
+  margin-left:11%;
+  font-size:40px;
+  color:rgb(81, 28, 87);
+  animation: fall6 1.6s linear infinite;
+}
+.fall7{
+  margin-left:31%;
+  font-size:40px;
+  color:rgb(59, 26, 63);
+  animation: fall7 1.6s linear infinite;
+}
+.fall8{
+  margin-left:51%;
+  font-size:40px;
+  color:rgb(59, 26, 63);
+  animation: fall8 1.6s linear infinite;
+}
+.fall9{
+  margin-left:71%;
+  font-size:40px;
+  color:rgb(59, 26, 63);
+  animation: fall9 1.6s linear infinite;
+}
+.fall10{
+  margin-left:81%;
+  font-size:40px;
+  color:rgb(59, 26, 63);
+  animation: fall10 1.6s linear infinite;
+}
+.fall11{
+  margin-left:22%;
+  font-size:40px;
+  color:rgb(59, 26, 63);
+  animation: fall11 1.6s linear infinite;
+}
+.fall12{
+    margin-left:461%;
+  font-size:40px;
+  color:rgb(59, 26, 63);
+  animation: fall12 1.6s linear infinite;
+}
+
+/* ABOUT FALLING TEXT __________ */
 
 .aboutcontainer{
 
 }
 
 .aboutHeadTxt{
-  margin-top:7%;
+  margin-top:-60%;
   color:rgb(58, 29, 29);
   font-family:Poppins, sans-serif;
 }
 
 .aboutTxtBody{
   margin:90px;
-  margin-top:60px;
+  margin-top:120px;
   line-height: 22px;
   font-size:40px;
   line-height:40px;

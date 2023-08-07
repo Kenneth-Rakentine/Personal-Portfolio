@@ -1,11 +1,16 @@
 import React from 'react'
+import ContactForm from '../components/ContactForm'
 
 function Contact() {
   return (
     <div className='contactContainer'>
 
     <h1 className='contactHeadTxt'>Contact</h1>
+    <div className="contactContainer">
+    <ContactForm />
+    </div>
       <div className='contactFlex'>
+      
       <div className='contactFloat'>
     <a href='mailto:rakentine.k@gmail.com' className='emailTxt'> Email </a>
     </div>
@@ -15,8 +20,11 @@ function Contact() {
     <div className='contactFloat3'>
     <a href='https://github.com/Kenneth-Rakentine' className='githubTxt'>Work</a>
     </div>
+    
     </div>
     <img className='webDevTag' src='https://i.ibb.co/xmwWYpp/web-dev-tag.png'></img>
+    <br></br>
+    <a href='https://w3collective.com/react-contact-form/' className='contactCredit'>Contact Form by W3 Collective</a>
   </div>
   )
 }

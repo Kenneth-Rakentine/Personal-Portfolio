@@ -15,7 +15,6 @@ import { Parallax } from 'react-scroll-parallax';
 import Links from './pages/Links';
 import HeadBar from './components/HeadBar';
 import Footer from './components/Footer';
-import LowerGradient from './components/LowerGradient';
 import Torn from './components/Torn';
 
 function App() {

@@ -757,6 +757,36 @@ border-radius:5px;
   /* margin-top:2%; */
 }
 
+.contact-form {
+
+}
+
+.form-group {
+}
+
+label {
+  font-weight:bold;
+}
+
+.msgLabel{
+  margin-left:-1.7%;
+  margin-top: -2px;
+}
+
+input,
+textarea {
+  width:12%;
+  margin:2px;
+background-color:rgb(192, 175, 175);
+}
+
+.submit-button {
+  cursor: pointer;
+}
+
+.contactCredit{
+  color:black;
+}
 
 /* @keyframes float {
   0% { transform: translate(0,  0px); }
@@ -1317,42 +1347,40 @@ margin-left:68%;
 .linkedinIcon{
 width:8.5%;
 opacity:.6;
-margin-left:80%;
+/* margin-left:80%; */
+margin-left:75%;
 margin-bottom:5px;
 }
 
 .linkedinIcon:hover{
   width:8.5%;
 opacity:1;
-margin-left:80%;
 margin-bottom:5px;
   }
 
 .gitIcon{
   width:8.5%;
   opacity:.6;
-  margin-left:80%;
+  margin-left:75%;
   margin-bottom:5px;
   }
 
 .gitIcon:hover{
     width:8.5%;
     opacity:1;
-    margin-left:80%;
     margin-bottom:5px;
     }
 
   .igIcon{
       width:8.5%;
   opacity:.6;
-  margin-left:80%;
+  margin-left:75%;
   margin-bottom:5px;
    }
     
   .igIcon:hover{
     width:8.5%;
      opacity:1;
-    margin-left:80%;
      margin-bottom:5px;
      }
 

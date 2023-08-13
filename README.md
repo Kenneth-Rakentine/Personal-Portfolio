@@ -2,9 +2,12 @@
 
 ![LOGO](https://i.ibb.co/pjRDGkw/Name-TYPOGRAPHY4.png)
 
-## Canvas Assignment Link:
 
-https://perscholas.instructure.com/courses/1464/assignments/291114?module_item_id=930282
+## Live Site Link:
+
+https://kenneth-rakentine.github.io/React-Portfolio/
+
+
 
 ## `My Approach`
 
@@ -39,7 +42,7 @@ To design a personal portfolio showcasing my programming & design skills which i
 ## Future Roadmap:
 
 - [ ] More tasteful, sleek, minimal portfolio web design look
-- [ ] Contact form on Contact Page - re-create my own contact form rather than using W3Collective example
+- [x] Contact form on Contact Page
 - [ ] Get Contact Form Server working properly once I have more backend knowledge
 - [ ] Re-introduce primary scrollbar
 - [ ] Drag-and-drop section in Contacts page
@@ -94,7 +97,7 @@ Early Versions:
 
 ### Credits
 
-- **Contact Form Code:** [W3 Collective](https://w3collective.com/react-contact-form/)
+- **Email Service & Contact Form** [EmailJS](https://www.emailjs.com/)
 - **Component Hierarchy Diagram Tool:**
   [FIigma](https://www.figma.com/)
 - **Adobe Firefly:** https://firefly.adobe.com

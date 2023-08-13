@@ -1,5 +1,5 @@
 import React from 'react'
-import ContactForm from '../components/ContactForm'
+import ContactUs from '../components/ContactUs'
 
 function Contact() {
   return (
@@ -7,7 +7,7 @@ function Contact() {
 
     <h1 className='contactHeadTxt'>Contact</h1>
     <div className="contactContainer">
-    <ContactForm />
+    <ContactUs />
     </div>
       <div className='contactFlex'>
       
@@ -24,7 +24,7 @@ function Contact() {
     </div>
     <img className='webDevTag' src='https://i.ibb.co/xmwWYpp/web-dev-tag.png'></img>
     <br></br>
-    <a href='https://w3collective.com/react-contact-form/' className='contactCredit'>Contact Form by W3 Collective</a>
+   
   </div>
   )
 }

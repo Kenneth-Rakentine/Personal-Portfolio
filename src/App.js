@@ -18,9 +18,9 @@ import Footer from './components/Footer';
 import Torn from './components/Torn';
 
 function App() {
-  useEffect(()=>{
-    playAudio()
-  }, [])
+  // useEffect(()=>{
+  //   playAudio()
+  // }, [])
 
 function playAudio() {
   let audio = new Audio(`${process.env.PUBLIC_URL}/audio/inhaler clip 1.mp3`);
